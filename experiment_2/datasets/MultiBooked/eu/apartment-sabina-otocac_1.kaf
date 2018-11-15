@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="eu" version="v1.naf">
+  <nafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="ixa-pipe-tok-eu" beginTimestamp="2016-12-27T15:04:33+0100" endTimestamp="2016-12-27T15:04:33+0100" version="1.8.4-5e2c806d7e8bc1e5e537c7137d1bf54e2aa8978c" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ixa-pipe-pos-eu-pos-perceptron-epec" beginTimestamp="2017-02-28T23:58:17+0100" endTimestamp="2017-02-28T23:58:17+0100" version="1.5.1-bd1f1cc15fb2680b8f85106975a2c41bfedee81f" hostname="jeremy-Aspire-V5-573PG"/>
+      <lp name="ixa-pipe-chunk-eu-chunk-epec1.1.1-95f84d6b17fda12d3f249d9898dd941d8e1ca978" beginTimestamp="2017-02-28T23:58:17+0100" endTimestamp="2017-02-28T23:58:17+0100" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <text>
+    <wf id="w1" offset="0" length="6" sent="1" para="1">Bikote</wf>
+    <wf id="w2" offset="7" length="10" sent="1" para="1">zoragarria</wf>
+    <wf id="w3" offset="18" length="3" sent="1" para="1">eta</wf>
+    <wf id="w4" offset="22" length="3" sent="1" para="1">oso</wf>
+    <wf id="w5" offset="26" length="9" sent="1" para="1">adeitsuak</wf>
+    <wf id="w6" offset="36" length="10" sent="1" para="1">hasieratik</wf>
+    <wf id="w7" offset="46" length="1" sent="1" para="1">.</wf>
+    <wf id="w8" offset="48" length="6" sent="2" para="1">Guztiz</wf>
+    <wf id="w9" offset="55" length="13" sent="2" para="1">gomendagarria</wf>
+    <wf id="w10" offset="68" length="1" sent="2" para="1">.</wf>
+  </text>
+  <terms>
+    <!--Bikote-->
+    <term id="t1" type="close" lemma="bikote" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--zoragarria-->
+    <term id="t2" type="close" lemma="zoragarri" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--eta-->
+    <term id="t3" type="close" lemma="eta" pos="O" morphofeat="LOT_JNT">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--oso-->
+    <term id="t4" type="close" lemma="oso" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--adeitsuak-->
+    <term id="t5" type="close" lemma="adeitsu" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--hasieratik-->
+    <term id="t6" type="close" lemma="hasiera" pos="O" morphofeat="IZE_ARR_ABL">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t7" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--Guztiz-->
+    <term id="t8" type="close" lemma="guztiz" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--gomendagarria-->
+    <term id="t9" type="close" lemma="gomendagarri" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t10" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+  </terms>
+  <chunks>
+    <!--Bikote zoragarria-->
+    <chunk id="c1" head="t2" phrase="NP">
+      <span>
+        <target id="t1"/>
+        <target id="t2"/>
+      </span>
+    </chunk>
+    <!--oso adeitsuak-->
+    <chunk id="c2" head="t5" phrase="NP">
+      <span>
+        <target id="t4"/>
+        <target id="t5"/>
+      </span>
+    </chunk>
+    <!--hasieratik-->
+    <chunk id="c3" head="t6" phrase="NP">
+      <span>
+        <target id="t6"/>
+      </span>
+    </chunk>
+    <!--Guztiz-->
+    <chunk id="c4" head="t8" phrase="NP">
+      <span>
+        <target id="t8"/>
+      </span>
+    </chunk>
+    <!--gomendagarria-->
+    <chunk id="c5" head="t9" phrase="NP">
+      <span>
+        <target id="t9"/>
+      </span>
+    </chunk>
+  </chunks>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=4 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Bikote -->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- zoragarria -->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=4 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Bikote -->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- oso adeitsuak -->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!-- Tag opinion scope id=6 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!-- Guztiz gomendagarria -->
+        <span>
+          <target id="t8"/>
+          <target id="t9"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</NAF>

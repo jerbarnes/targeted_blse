@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="eu" version="v1.naf">
+  <nafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="ixa-pipe-tok-eu" beginTimestamp="2016-12-27T15:04:42+0100" endTimestamp="2016-12-27T15:04:42+0100" version="1.8.4-5e2c806d7e8bc1e5e537c7137d1bf54e2aa8978c" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ixa-pipe-pos-eu-pos-perceptron-epec" beginTimestamp="2017-02-28T23:59:27+0100" endTimestamp="2017-02-28T23:59:27+0100" version="1.5.1-bd1f1cc15fb2680b8f85106975a2c41bfedee81f" hostname="jeremy-Aspire-V5-573PG"/>
+      <lp name="ixa-pipe-chunk-eu-chunk-epec1.1.1-95f84d6b17fda12d3f249d9898dd941d8e1ca978" beginTimestamp="2017-02-28T23:59:27+0100" endTimestamp="2017-02-28T23:59:27+0100" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <text>
+    <wf id="w1" offset="0" length="2" sent="1" para="1">Ez</wf>
+    <wf id="w2" offset="3" length="6" sent="1" para="1">zegoen</wf>
+    <wf id="w3" offset="10" length="8" sent="1" para="1">erosteko</wf>
+    <wf id="w4" offset="19" length="6" sent="1" para="1">aukera</wf>
+    <wf id="w5" offset="26" length="8" sent="1" para="1">handirik</wf>
+    <wf id="w6" offset="35" length="9" sent="1" para="1">Igeldotik</wf>
+    <wf id="w7" offset="45" length="12" sent="1" para="1">donostiarako</wf>
+    <wf id="w8" offset="58" length="5" sent="1" para="1">bidea</wf>
+  </text>
+  <terms>
+    <!--Ez-->
+    <term id="t1" type="close" lemma="ez" pos="O" morphofeat="PRT_EGI">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--zegoen-->
+    <term id="t2" type="close" lemma="egon" pos="O" morphofeat="ADT">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--erosteko-->
+    <term id="t3" type="close" lemma="erosi" pos="O" morphofeat="ADI_SIN_GEL">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--aukera-->
+    <term id="t4" type="close" lemma="aukera" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--handirik-->
+    <term id="t5" type="close" lemma="handi" pos="O" morphofeat="ADJ_ARR_PAR">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--Igeldotik-->
+    <term id="t6" type="close" lemma="igeldo" pos="O" morphofeat="IZE_ARR_ABL">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--donostiarako-->
+    <term id="t7" type="close" lemma="donostia" pos="O" morphofeat="IZE_ARR_GEL">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--bidea-->
+    <term id="t8" type="close" lemma="bide" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+  </terms>
+  <chunks>
+    <!--Ez zegoen-->
+    <chunk id="c1" head="t2" phrase="VP">
+      <span>
+        <target id="t1"/>
+        <target id="t2"/>
+      </span>
+    </chunk>
+    <!--erosteko-->
+    <chunk id="c2" head="t3" phrase="VP">
+      <span>
+        <target id="t3"/>
+      </span>
+    </chunk>
+    <!--aukera handirik-->
+    <chunk id="c3" head="t5" phrase="NP">
+      <span>
+        <target id="t4"/>
+        <target id="t5"/>
+      </span>
+    </chunk>
+    <!--Igeldotik-->
+    <chunk id="c4" head="t6" phrase="NP">
+      <span>
+        <target id="t6"/>
+      </span>
+    </chunk>
+    <!--donostiarako-->
+    <chunk id="c5" head="t7" phrase="NP">
+      <span>
+        <target id="t7"/>
+      </span>
+    </chunk>
+  </chunks>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=3 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- erosteko aukera -->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!-- Ez zegoen handirik -->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</NAF>

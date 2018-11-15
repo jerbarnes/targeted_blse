@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="ca">
+  <kafHeader>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2016-01-15T17:57:18CET" beginTimestamp="2016-01-15T17:57:18CET" endTimestamp="2016-01-15T17:57:18CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2016-01-15T17:57:18CET" beginTimestamp="2016-01-15T17:57:18CET" endTimestamp="2016-01-15T17:57:18CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <linguisticProcessors layer="text">
+    <lp timestamp="Mon Dec  7 13:49:46 2015" version="3.1" name="Freeling"/>
+  </linguisticProcessors>
+  <linguisticProcessors layer="terms">
+    <lp timestamp="Mon Dec  7 13:49:46 2015" version="3.1" name="Freeling"/>
+  </linguisticProcessors>
+  <text>
+    <wf wid="w_1" para="1" sent="1">Wifi</wf>
+    <wf wid="w_2" para="1" sent="1">a</wf>
+    <wf wid="w_3" para="1" sent="1">les</wf>
+    <wf wid="w_4" para="1" sent="1">habitacions</wf>
+    <wf wid="w_5" para="1" sent="1">Bufet</wf>
+    <wf wid="w_6" para="1" sent="1">esmorzar</wf>
+    <wf wid="w_7" para="1" sent="1">increible</wf>
+    <wf wid="w_8" para="1" sent="1">i</wf>
+    <wf wid="w_9" para="1" sent="1">servei</wf>
+    <wf wid="w_10" para="1" sent="1">excelent</wf>
+  </text>
+  <terms>
+    <term tid="t_1" lemma="wifi" morphofeat="R" pos="RG">
+      <span>
+        <target id="w_1"/>
+      </span>
+    </term>
+    <term tid="t_2" lemma="a" morphofeat="S" pos="SPS00">
+      <span>
+        <target id="w_2"/>
+      </span>
+    </term>
+    <term tid="t_3" lemma="el" morphofeat="D" pos="DA0FP0">
+      <span>
+        <target id="w_3"/>
+      </span>
+    </term>
+    <term tid="t_4" lemma="habitació" morphofeat="N" pos="NCFP000">
+      <span>
+        <target id="w_4"/>
+      </span>
+    </term>
+    <term tid="t_5" lemma="bufet" morphofeat="N" pos="NCMS000">
+      <span>
+        <target id="w_5"/>
+      </span>
+    </term>
+    <term tid="t_6" lemma="esmorzar" morphofeat="N" pos="NCMS000">
+      <span>
+        <target id="w_6"/>
+      </span>
+    </term>
+    <term tid="t_7" lemma="increible" morphofeat="A" pos="AQ0CS0">
+      <span>
+        <target id="w_7"/>
+      </span>
+    </term>
+    <term tid="t_8" lemma="i" morphofeat="C" pos="CC">
+      <span>
+        <target id="w_8"/>
+      </span>
+    </term>
+    <term tid="t_9" lemma="servei" morphofeat="N" pos="NCMS000">
+      <span>
+        <target id="w_9"/>
+      </span>
+    </term>
+    <term tid="t_10" lemma="excelent" morphofeat="A" pos="AQ0CS0">
+      <span>
+        <target id="w_10"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=3 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Bufet esmorzar -->
+        <span>
+          <target id="t_5"/>
+          <target id="t_6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- increible -->
+        <span>
+          <target id="t_7"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=6 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- servei -->
+        <span>
+          <target id="t_9"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- excelent -->
+        <span>
+          <target id="t_10"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

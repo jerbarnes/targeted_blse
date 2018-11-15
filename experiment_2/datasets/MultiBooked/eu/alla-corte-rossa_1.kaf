@@ -1,0 +1,346 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="eu" version="v1.naf">
+  <nafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="ixa-pipe-tok-eu" beginTimestamp="2016-12-27T15:04:29+0100" endTimestamp="2016-12-27T15:04:29+0100" version="1.8.4-5e2c806d7e8bc1e5e537c7137d1bf54e2aa8978c" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ixa-pipe-pos-eu-pos-perceptron-epec" beginTimestamp="2017-02-28T23:57:43+0100" endTimestamp="2017-02-28T23:57:43+0100" version="1.5.1-bd1f1cc15fb2680b8f85106975a2c41bfedee81f" hostname="jeremy-Aspire-V5-573PG"/>
+      <lp name="ixa-pipe-chunk-eu-chunk-epec1.1.1-95f84d6b17fda12d3f249d9898dd941d8e1ca978" beginTimestamp="2017-02-28T23:57:43+0100" endTimestamp="2017-02-28T23:57:43+0100" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <text>
+    <wf id="w1" offset="0" length="4" sent="1" para="1">Alla</wf>
+    <wf id="w2" offset="5" length="5" sent="1" para="1">corte</wf>
+    <wf id="w3" offset="11" length="5" sent="1" para="1">rossa</wf>
+    <wf id="w4" offset="16" length="1" sent="1" para="1">,</wf>
+    <wf id="w5" offset="18" length="3" sent="1" para="1">oso</wf>
+    <wf id="w6" offset="22" length="13" sent="1" para="1">gomendagarria</wf>
+    <wf id="w7" offset="36" length="3" sent="1" para="1">eta</wf>
+    <wf id="w8" offset="40" length="7" sent="1" para="1">kokapen</wf>
+    <wf id="w9" offset="48" length="9" sent="1" para="1">ezinobeko</wf>
+    <wf id="w10" offset="58" length="5" sent="1" para="1">hotel</wf>
+    <wf id="w11" offset="64" length="10" sent="1" para="1">familiarra</wf>
+    <wf id="w12" offset="74" length="1" sent="1" para="1">.</wf>
+    <wf id="w13" offset="76" length="6" sent="2" para="1">Logela</wf>
+    <wf id="w14" offset="83" length="2" sent="2" para="1">on</wf>
+    <wf id="w15" offset="86" length="3" sent="2" para="1">eta</wf>
+    <wf id="w16" offset="90" length="5" sent="2" para="1">baiñu</wf>
+    <wf id="w17" offset="96" length="11" sent="2" para="1">ederrarekin</wf>
+    <wf id="w18" offset="107" length="1" sent="2" para="1">.</wf>
+    <wf id="w19" offset="109" length="6" sent="3" para="1">Gosari</wf>
+    <wf id="w20" offset="116" length="3" sent="3" para="1">ona</wf>
+    <wf id="w21" offset="120" length="3" sent="3" para="1">eta</wf>
+    <wf id="w22" offset="124" length="3" sent="3" para="1">oso</wf>
+    <wf id="w23" offset="128" length="9" sent="3" para="1">pertsonal</wf>
+    <wf id="w24" offset="138" length="11" sent="3" para="1">lagungarria</wf>
+  </text>
+  <terms>
+    <!--Alla-->
+    <term id="t1" type="close" lemma="alla" pos="O" morphofeat="IZE_IZB_ZERO">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--corte-->
+    <term id="t2" type="close" lemma="corte" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--rossa-->
+    <term id="t3" type="close" lemma="ross" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--,-->
+    <term id="t4" type="close" lemma="," pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--oso-->
+    <term id="t5" type="close" lemma="oso" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--gomendagarria-->
+    <term id="t6" type="close" lemma="gomendagarri" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--eta-->
+    <term id="t7" type="close" lemma="eta" pos="O" morphofeat="LOT_JNT">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--kokapen-->
+    <term id="t8" type="close" lemma="kokapen" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--ezinobeko-->
+    <term id="t9" type="close" lemma="ezinob" pos="O" morphofeat="ADJ_ARR_GEL">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--hotel-->
+    <term id="t10" type="close" lemma="hotel" pos="O" morphofeat="BST">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--familiarra-->
+    <term id="t11" type="close" lemma="familiar" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t12" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--Logela-->
+    <term id="t13" type="close" lemma="logela" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--on-->
+    <term id="t14" type="close" lemma="on" pos="O" morphofeat="ADJ_ARR_ZERO">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--eta-->
+    <term id="t15" type="close" lemma="eta" pos="O" morphofeat="LOT_JNT">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--baiñu-->
+    <term id="t16" type="close" lemma="baiñu" pos="O" morphofeat="ADJ_ARR_ZERO">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--ederrarekin-->
+    <term id="t17" type="close" lemma="ederra" pos="O" morphofeat="IZE_ARR_SOZ">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t18" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--Gosari-->
+    <term id="t19" type="close" lemma="gosari" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--ona-->
+    <term id="t20" type="close" lemma="on" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--eta-->
+    <term id="t21" type="close" lemma="eta" pos="O" morphofeat="LOT_JNT">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--oso-->
+    <term id="t22" type="close" lemma="oso" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--pertsonal-->
+    <term id="t23" type="close" lemma="pertsonal" pos="O" morphofeat="ADJ_ARR_ZERO">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--lagungarria-->
+    <term id="t24" type="close" lemma="lagungarri" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+  </terms>
+  <chunks>
+    <!--Alla corte rossa-->
+    <chunk id="c1" head="t3" phrase="NP">
+      <span>
+        <target id="t1"/>
+        <target id="t2"/>
+        <target id="t3"/>
+      </span>
+    </chunk>
+    <!--oso gomendagarria-->
+    <chunk id="c2" head="t6" phrase="NP">
+      <span>
+        <target id="t5"/>
+        <target id="t6"/>
+      </span>
+    </chunk>
+    <!--kokapen ezinobeko hotel familiarra-->
+    <chunk id="c3" head="t11" phrase="NP">
+      <span>
+        <target id="t8"/>
+        <target id="t9"/>
+        <target id="t10"/>
+        <target id="t11"/>
+      </span>
+    </chunk>
+    <!--Logela on eta baiñu ederrarekin-->
+    <chunk id="c4" head="t17" phrase="NP">
+      <span>
+        <target id="t13"/>
+        <target id="t14"/>
+        <target id="t15"/>
+        <target id="t16"/>
+        <target id="t17"/>
+      </span>
+    </chunk>
+    <!--Gosari ona-->
+    <chunk id="c5" head="t20" phrase="NP">
+      <span>
+        <target id="t19"/>
+        <target id="t20"/>
+      </span>
+    </chunk>
+    <!--oso pertsonal lagungarria-->
+    <chunk id="c6" head="t24" phrase="NP">
+      <span>
+        <target id="t22"/>
+        <target id="t23"/>
+        <target id="t24"/>
+      </span>
+    </chunk>
+  </chunks>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=9 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Logela -->
+        <span>
+          <target id="t13"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- on -->
+        <span>
+          <target id="t14"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=10 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- baiñu -->
+        <span>
+          <target id="t16"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- ederrarekin -->
+        <span>
+          <target id="t17"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!-- Tag opinion scope id=13 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Gosari -->
+        <span>
+          <target id="t19"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- ona -->
+        <span>
+          <target id="t20"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!-- Tag opinion scope id=4 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Alla corte rossa -->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- oso gomendagarria -->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!-- Tag opinion scope id=4 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Alla corte rossa -->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- kokapen ezinobeko -->
+        <span>
+          <target id="t8"/>
+          <target id="t9"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o5">
+      <!-- Tag opinion scope id=16 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- pertsonal -->
+        <span>
+          <target id="t23"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- oso lagungarria -->
+        <span>
+          <target id="t22"/>
+          <target id="t24"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</NAF>

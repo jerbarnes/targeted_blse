@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="ca">
+  <kafHeader>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2016-01-14T21:05:35CET" beginTimestamp="2016-01-14T21:05:35CET" endTimestamp="2016-01-14T21:05:35CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2016-01-14T21:05:35CET" beginTimestamp="2016-01-14T21:05:35CET" endTimestamp="2016-01-14T21:05:35CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <linguisticProcessors layer="text">
+    <lp timestamp="Sat Nov 21 13:30:09 2015" version="3.1" name="Freeling"/>
+  </linguisticProcessors>
+  <linguisticProcessors layer="terms">
+    <lp timestamp="Sat Nov 21 13:30:09 2015" version="3.1" name="Freeling"/>
+  </linguisticProcessors>
+  <text>
+    <wf wid="w_1" para="1" sent="1">El</wf>
+    <wf wid="w_2" para="1" sent="1">sofà_llit</wf>
+    <wf wid="w_3" para="1" sent="1">molt</wf>
+    <wf wid="w_4" para="1" sent="1">incòmode</wf>
+    <wf wid="w_5" para="1" sent="1">impossible</wf>
+    <wf wid="w_6" para="1" sent="1">dormir</wf>
+    <wf wid="w_7" para="1" sent="1">Molt</wf>
+    <wf wid="w_8" para="1" sent="1">ampli</wf>
+    <wf wid="w_9" para="1" sent="1">i</wf>
+    <wf wid="w_10" para="1" sent="1">ben</wf>
+    <wf wid="w_11" para="1" sent="1">equipat</wf>
+  </text>
+  <terms>
+    <term tid="t_1" lemma="el" morphofeat="D" pos="DA0MS0">
+      <span>
+        <target id="w_1"/>
+      </span>
+    </term>
+    <term tid="t_2" lemma="sofà_llit" morphofeat="N" pos="NCMS000">
+      <span>
+        <target id="w_2"/>
+      </span>
+    </term>
+    <term tid="t_3" lemma="molt" morphofeat="R" pos="RG">
+      <span>
+        <target id="w_3"/>
+      </span>
+    </term>
+    <term tid="t_4" lemma="incòmode" morphofeat="A" pos="AQ0MS0">
+      <span>
+        <target id="w_4"/>
+      </span>
+    </term>
+    <term tid="t_5" lemma="impossible" morphofeat="A" pos="AQ0CS0">
+      <span>
+        <target id="w_5"/>
+      </span>
+    </term>
+    <term tid="t_6" lemma="dormir" morphofeat="V" pos="VMN0000">
+      <span>
+        <target id="w_6"/>
+      </span>
+    </term>
+    <term tid="t_7" lemma="molt" morphofeat="R" pos="RG">
+      <span>
+        <target id="w_7"/>
+      </span>
+    </term>
+    <term tid="t_8" lemma="ampli" morphofeat="A" pos="AQ0MS0">
+      <span>
+        <target id="w_8"/>
+      </span>
+    </term>
+    <term tid="t_9" lemma="i" morphofeat="C" pos="CC">
+      <span>
+        <target id="w_9"/>
+      </span>
+    </term>
+    <term tid="t_10" lemma="ben" morphofeat="R" pos="RG">
+      <span>
+        <target id="w_10"/>
+      </span>
+    </term>
+    <term tid="t_11" lemma="equipar" morphofeat="V" pos="VMP00SM">
+      <span>
+        <target id="w_11"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=4 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- El sofà_llit -->
+        <span>
+          <target id="t_1"/>
+          <target id="t_2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!-- molt incòmode -->
+        <span>
+          <target id="t_3"/>
+          <target id="t_4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=4 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- El sofà_llit -->
+        <span>
+          <target id="t_1"/>
+          <target id="t_2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!-- impossible dormir -->
+        <span>
+          <target id="t_5"/>
+          <target id="t_6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!-- Tag opinion scope id=7 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!-- Molt ampli -->
+        <span>
+          <target id="t_7"/>
+          <target id="t_8"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!-- Tag opinion scope id=7 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!-- ben equipat -->
+        <span>
+          <target id="t_10"/>
+          <target id="t_11"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

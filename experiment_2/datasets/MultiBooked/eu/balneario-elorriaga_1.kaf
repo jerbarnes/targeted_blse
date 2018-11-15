@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="eu" version="v1.naf">
+  <nafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="ixa-pipe-tok-eu" beginTimestamp="2016-12-27T15:04:36+0100" endTimestamp="2016-12-27T15:04:36+0100" version="1.8.4-5e2c806d7e8bc1e5e537c7137d1bf54e2aa8978c" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ixa-pipe-pos-eu-pos-perceptron-epec" beginTimestamp="2017-02-28T23:58:43+0100" endTimestamp="2017-02-28T23:58:43+0100" version="1.5.1-bd1f1cc15fb2680b8f85106975a2c41bfedee81f" hostname="jeremy-Aspire-V5-573PG"/>
+      <lp name="ixa-pipe-chunk-eu-chunk-epec1.1.1-95f84d6b17fda12d3f249d9898dd941d8e1ca978" beginTimestamp="2017-02-28T23:58:43+0100" endTimestamp="2017-02-28T23:58:43+0100" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <text>
+    <wf id="w1" offset="0" length="13" sent="1" para="1">Nabarmentzeko</wf>
+    <wf id="w2" offset="14" length="6" sent="1" para="1">deusik</wf>
+    <wf id="w3" offset="21" length="2" sent="1" para="1">ez</wf>
+    <wf id="w4" offset="23" length="1" sent="1" para="1">.</wf>
+    <wf id="w5" offset="25" length="13" sent="2" para="1">Bainuetxearen</wf>
+    <wf id="w6" offset="39" length="12" sent="2" para="1">sinpletasuna</wf>
+    <wf id="w7" offset="51" length="1" sent="2" para="1">,</wf>
+    <wf id="w8" offset="53" length="3" sent="2" para="1">ZEN</wf>
+    <wf id="w9" offset="57" length="9" sent="2" para="1">estilokoa</wf>
+    <wf id="w10" offset="66" length="1" sent="2" para="1">,</wf>
+    <wf id="w11" offset="68" length="6" sent="2" para="1">alegia</wf>
+    <wf id="w12" offset="74" length="1" sent="2" para="1">;</wf>
+    <wf id="w13" offset="76" length="11" sent="2" para="1">erlaxatzeko</wf>
+    <wf id="w14" offset="88" length="3" sent="2" para="1">eta</wf>
+    <wf id="w15" offset="92" length="7" sent="2" para="1">gogoeta</wf>
+    <wf id="w16" offset="100" length="7" sent="2" para="1">egiteko</wf>
+    <wf id="w17" offset="108" length="3" sent="2" para="1">oso</wf>
+    <wf id="w18" offset="112" length="8" sent="2" para="1">aproposa</wf>
+    <wf id="w19" offset="120" length="1" sent="2" para="1">.</wf>
+  </text>
+  <terms>
+    <!--Nabarmentzeko-->
+    <term id="t1" type="close" lemma="nabarmendu" pos="O" morphofeat="ADI_SIN_GEL">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--deusik-->
+    <term id="t2" type="close" lemma="deus" pos="O" morphofeat="IZE_ARR_PAR">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--ez-->
+    <term id="t3" type="close" lemma="ez" pos="O" morphofeat="PRT_EGI">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t4" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--Bainuetxearen-->
+    <term id="t5" type="close" lemma="bainuetxe" pos="O" morphofeat="IZE_ARR_GEN">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--sinpletasuna-->
+    <term id="t6" type="close" lemma="sinpletasun" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--,-->
+    <term id="t7" type="close" lemma="," pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--ZEN-->
+    <term id="t8" type="close" lemma="zen" pos="O" morphofeat="DET_ORD_ZERO">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--estilokoa-->
+    <term id="t9" type="close" lemma="estilo" pos="O" morphofeat="IZE_IZEELI_BIZ-_ABS">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--,-->
+    <term id="t10" type="close" lemma="," pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--alegia-->
+    <term id="t11" type="close" lemma="alegia" pos="O" morphofeat="LOT_LOK">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--;-->
+    <term id="t12" type="close" lemma=";" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--erlaxatzeko-->
+    <term id="t13" type="close" lemma="erlaxatu" pos="O" morphofeat="ADI_SIN_GEL">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--eta-->
+    <term id="t14" type="close" lemma="eta" pos="O" morphofeat="LOT_JNT">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--gogoeta-->
+    <term id="t15" type="close" lemma="gogoeta_egin" pos="O" morphofeat="ADI_ADK_ABS">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--egiteko-->
+    <term id="t16" type="close" lemma="egin" pos="O" morphofeat="ADI_SIN_ABS">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--oso-->
+    <term id="t17" type="close" lemma="oso" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--aproposa-->
+    <term id="t18" type="close" lemma="apropos" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t19" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+  </terms>
+  <chunks>
+    <!--Nabarmentzeko-->
+    <chunk id="c1" head="t1" phrase="VP">
+      <span>
+        <target id="t1"/>
+      </span>
+    </chunk>
+    <!--deusik ez-->
+    <chunk id="c2" head="t3" phrase="NP">
+      <span>
+        <target id="t2"/>
+        <target id="t3"/>
+      </span>
+    </chunk>
+    <!--Bainuetxearen sinpletasuna-->
+    <chunk id="c3" head="t6" phrase="NP">
+      <span>
+        <target id="t5"/>
+        <target id="t6"/>
+      </span>
+    </chunk>
+    <!--ZEN estilokoa-->
+    <chunk id="c4" head="t9" phrase="NP">
+      <span>
+        <target id="t8"/>
+        <target id="t9"/>
+      </span>
+    </chunk>
+    <!--erlaxatzeko-->
+    <chunk id="c5" head="t13" phrase="VP">
+      <span>
+        <target id="t13"/>
+      </span>
+    </chunk>
+    <!--gogoeta-->
+    <chunk id="c6" head="t15" phrase="VP">
+      <span>
+        <target id="t15"/>
+      </span>
+    </chunk>
+    <!--egiteko-->
+    <chunk id="c7" head="t16" phrase="VP">
+      <span>
+        <target id="t16"/>
+      </span>
+    </chunk>
+    <!--oso aproposa-->
+    <chunk id="c8" head="t18" phrase="NP">
+      <span>
+        <target id="t17"/>
+        <target id="t18"/>
+      </span>
+    </chunk>
+  </chunks>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=5 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Bainuetxearen -->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- ZEN estilokoa -->
+        <span>
+          <target id="t8"/>
+          <target id="t9"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=5 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Bainuetxearen -->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- sinpletasuna -->
+        <span>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!-- Tag opinion scope id=5 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Bainuetxearen -->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- erlaxatzeko eta gogoeta egiteko oso aproposa -->
+        <span>
+          <target id="t13"/>
+          <target id="t14"/>
+          <target id="t15"/>
+          <target id="t16"/>
+          <target id="t17"/>
+          <target id="t18"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</NAF>

@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="eu" version="v1.naf">
+  <nafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="ixa-pipe-tok-eu" beginTimestamp="2016-12-27T15:05:12+0100" endTimestamp="2016-12-27T15:05:12+0100" version="1.8.4-5e2c806d7e8bc1e5e537c7137d1bf54e2aa8978c" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ixa-pipe-pos-eu-pos-perceptron-epec" beginTimestamp="2017-03-09T01:04:34+0100" endTimestamp="2017-03-09T01:04:34+0100" version="1.5.1-bd1f1cc15fb2680b8f85106975a2c41bfedee81f" hostname="jeremy-Aspire-V5-573PG"/>
+      <lp name="ixa-pipe-chunk-eu-chunk-epec1.1.1-95f84d6b17fda12d3f249d9898dd941d8e1ca978" beginTimestamp="2017-03-09T01:04:35+0100" endTimestamp="2017-03-09T01:04:35+0100" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2017-03-09T01:36:21CET" beginTimestamp="2017-03-09T01:36:21CET" endTimestamp="2017-03-09T01:36:21CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2017-03-09T01:36:21CET" beginTimestamp="2017-03-09T01:36:21CET" endTimestamp="2017-03-09T01:36:21CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <text>
+    <wf id="w1" offset="0" length="4" sent="1" para="1">Nahi</wf>
+    <wf id="w2" offset="5" length="6" sent="1" para="1">baduzu</wf>
+    <wf id="w3" offset="12" length="4" sent="1" para="1">aste</wf>
+    <wf id="w4" offset="17" length="3" sent="1" para="1">bat</wf>
+    <wf id="w5" offset="21" length="11" sent="1" para="1">lasai-lasai</wf>
+    <wf id="w6" offset="33" length="5" sent="1" para="1">hotel</wf>
+    <wf id="w7" offset="39" length="6" sent="1" para="1">batean</wf>
+    <wf id="w8" offset="46" length="4" sent="1" para="1">pasa</wf>
+    <wf id="w9" offset="50" length="1" sent="1" para="1">,</wf>
+    <wf id="w10" offset="52" length="5" sent="1" para="1">hemen</wf>
+    <wf id="w11" offset="58" length="5" sent="1" para="1">baino</wf>
+    <wf id="w12" offset="64" length="6" sent="1" para="1">hobeto</wf>
+    <wf id="w13" offset="71" length="5" sent="1" para="1">kosta</wf>
+    <wf id="w14" offset="77" length="6" sent="1" para="1">egingo</wf>
+    <wf id="w15" offset="84" length="5" sent="1" para="1">zaizu</wf>
+    <wf id="w16" offset="90" length="7" sent="1" para="1">lekurik</wf>
+    <wf id="w17" offset="98" length="8" sent="1" para="1">bilatzea</wf>
+    <wf id="w18" offset="106" length="1" sent="1" para="1">.</wf>
+    <wf id="w19" offset="108" length="9" sent="2" para="1">Kalitatea</wf>
+    <wf id="w20" offset="117" length="4" sent="2" para="1">!!!!</wf>
+  </text>
+  <terms>
+    <!--Nahi-->
+    <term id="t1" type="close" lemma="nahi" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--baduzu-->
+    <term id="t2" type="close" lemma="ukan" pos="O" morphofeat="ADT">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--aste-->
+    <term id="t3" type="close" lemma="aste" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--bat-->
+    <term id="t4" type="close" lemma="bat" pos="O" morphofeat="DET_DZH_ABS">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--lasai-lasai-->
+    <term id="t5" type="close" lemma="lasai-lasai" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--hotel-->
+    <term id="t6" type="close" lemma="hotel" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--batean-->
+    <term id="t7" type="close" lemma="bat" pos="O" morphofeat="DET_DZH_INE">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--pasa-->
+    <term id="t8" type="close" lemma="pasatu" pos="O" morphofeat="ADI_SIN_NOTDEK">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--,-->
+    <term id="t9" type="close" lemma="," pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--hemen-->
+    <term id="t10" type="close" lemma="hemen" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--baino-->
+    <term id="t11" type="close" lemma="baino" pos="O" morphofeat="BST">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--hobeto-->
+    <term id="t12" type="close" lemma="hobeto" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--kosta-->
+    <term id="t13" type="close" lemma="kostatu" pos="O" morphofeat="ADI_SIN_NOTDEK">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--egingo-->
+    <term id="t14" type="close" lemma="egin" pos="O" morphofeat="ADI_SIN_NOTDEK">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--zaizu-->
+    <term id="t15" type="close" lemma="izan" pos="O" morphofeat="ADL">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--lekurik-->
+    <term id="t16" type="close" lemma="leku" pos="O" morphofeat="IZE_ARR_PAR">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--bilatzea-->
+    <term id="t17" type="close" lemma="bilatu" pos="O" morphofeat="ADI_SIN_ABS">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t18" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--Kalitatea-->
+    <term id="t19" type="close" lemma="kalitate" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--!!!!-->
+    <term id="t20" type="close" lemma="!!!!" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+  </terms>
+  <chunks>
+    <!--Nahi-->
+    <chunk id="c1" head="t1" phrase="NP">
+      <span>
+        <target id="t1"/>
+      </span>
+    </chunk>
+    <!--baduzu-->
+    <chunk id="c2" head="t2" phrase="VP">
+      <span>
+        <target id="t2"/>
+      </span>
+    </chunk>
+    <!--aste bat-->
+    <chunk id="c3" head="t4" phrase="NP">
+      <span>
+        <target id="t3"/>
+        <target id="t4"/>
+      </span>
+    </chunk>
+    <!--lasai-lasai-->
+    <chunk id="c4" head="t5" phrase="NP">
+      <span>
+        <target id="t5"/>
+      </span>
+    </chunk>
+    <!--hotel batean-->
+    <chunk id="c5" head="t7" phrase="NP">
+      <span>
+        <target id="t6"/>
+        <target id="t7"/>
+      </span>
+    </chunk>
+    <!--pasa-->
+    <chunk id="c6" head="t8" phrase="VP">
+      <span>
+        <target id="t8"/>
+      </span>
+    </chunk>
+    <!--hemen-->
+    <chunk id="c7" head="t10" phrase="NP">
+      <span>
+        <target id="t10"/>
+      </span>
+    </chunk>
+    <!--hobeto-->
+    <chunk id="c8" head="t12" phrase="NP">
+      <span>
+        <target id="t12"/>
+      </span>
+    </chunk>
+    <!--kosta egingo zaizu-->
+    <chunk id="c9" head="t15" phrase="VP">
+      <span>
+        <target id="t13"/>
+        <target id="t14"/>
+        <target id="t15"/>
+      </span>
+    </chunk>
+    <!--lekurik-->
+    <chunk id="c10" head="t16" phrase="NP">
+      <span>
+        <target id="t16"/>
+      </span>
+    </chunk>
+    <!--bilatzea-->
+    <chunk id="c11" head="t17" phrase="VP">
+      <span>
+        <target id="t17"/>
+      </span>
+    </chunk>
+    <!--Kalitatea-->
+    <chunk id="c12" head="t19" phrase="NP">
+      <span>
+        <target id="t19"/>
+      </span>
+    </chunk>
+  </chunks>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=2 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!-- Kalitatea !!!! -->
+        <span>
+          <target id="t19"/>
+          <target id="t20"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=4 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!-- hemen baino hobeto kosta egingo -->
+        <span>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</NAF>

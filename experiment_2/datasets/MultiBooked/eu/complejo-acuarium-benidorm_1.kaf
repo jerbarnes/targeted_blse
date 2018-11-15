@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="eu" version="v1.naf">
+  <nafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="ixa-pipe-tok-eu" beginTimestamp="2016-12-27T15:04:50+0100" endTimestamp="2016-12-27T15:04:50+0100" version="1.8.4-5e2c806d7e8bc1e5e537c7137d1bf54e2aa8978c" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ixa-pipe-pos-eu-pos-perceptron-epec" beginTimestamp="2017-03-01T00:00:55+0100" endTimestamp="2017-03-01T00:00:55+0100" version="1.5.1-bd1f1cc15fb2680b8f85106975a2c41bfedee81f" hostname="jeremy-Aspire-V5-573PG"/>
+      <lp name="ixa-pipe-chunk-eu-chunk-epec1.1.1-95f84d6b17fda12d3f249d9898dd941d8e1ca978" beginTimestamp="2017-03-01T00:00:56+0100" endTimestamp="2017-03-01T00:00:56+0100" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <text>
+    <wf id="w1" offset="0" length="7" sent="1" para="1">Sarrera</wf>
+    <wf id="w2" offset="8" length="5" sent="1" para="1">ordua</wf>
+    <wf id="w3" offset="14" length="9" sent="1" para="1">aurreratu</wf>
+    <wf id="w4" offset="24" length="7" sent="1" para="1">beharko</wf>
+    <wf id="w5" offset="32" length="9" sent="1" para="1">litzateke</wf>
+    <wf id="w6" offset="41" length="1" sent="1" para="1">.</wf>
+    <wf id="w7" offset="43" length="4" sent="2" para="1">Aire</wf>
+    <wf id="w8" offset="48" length="8" sent="2" para="1">egokitua</wf>
+    <wf id="w9" offset="57" length="12" sent="2" para="1">beharrrezkoa</wf>
+    <wf id="w10" offset="70" length="2" sent="2" para="1">da</wf>
+    <wf id="w11" offset="72" length="1" sent="2" para="1">.</wf>
+    <wf id="w12" offset="74" length="10" sent="3" para="1">Igeritokia</wf>
+    <wf id="w13" offset="84" length="1" sent="3" para="1">.</wf>
+    <wf id="w14" offset="86" length="9" sent="4" para="1">Garbiketa</wf>
+    <wf id="w15" offset="95" length="1" sent="4" para="1">.</wf>
+    <wf id="w16" offset="97" length="8" sent="5" para="1">Kokapena</wf>
+    <wf id="w17" offset="105" length="1" sent="5" para="1">.</wf>
+  </text>
+  <terms>
+    <!--Sarrera-->
+    <term id="t1" type="close" lemma="sarre" pos="O" morphofeat="IZE_ARR_ALA">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--ordua-->
+    <term id="t2" type="close" lemma="ordu" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--aurreratu-->
+    <term id="t3" type="close" lemma="aurreratu" pos="O" morphofeat="ADI_SIN_NOTDEK">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--beharko-->
+    <term id="t4" type="close" lemma="behar_izan" pos="O" morphofeat="ADI_ADK_NOTDEK">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--litzateke-->
+    <term id="t5" type="close" lemma="izan" pos="O" morphofeat="ADL">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t6" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--Aire-->
+    <term id="t7" type="close" lemma="ai" pos="O" morphofeat="IOR_PERARR_GEN">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--egokitua-->
+    <term id="t8" type="close" lemma="egokitu" pos="O" morphofeat="ADI_SIN_ABS">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--beharrrezkoa-->
+    <term id="t9" type="close" lemma="beharrrezko" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--da-->
+    <term id="t10" type="close" lemma="izan" pos="O" morphofeat="ADT">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t11" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--Igeritokia-->
+    <term id="t12" type="close" lemma="igeritoki" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t13" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--Garbiketa-->
+    <term id="t14" type="close" lemma="garbiketa" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t15" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--Kokapena-->
+    <term id="t16" type="close" lemma="kokapen" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t17" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+  </terms>
+  <chunks>
+    <!--Sarrera-->
+    <chunk id="c1" head="t1" phrase="NP">
+      <span>
+        <target id="t1"/>
+      </span>
+    </chunk>
+    <!--ordua-->
+    <chunk id="c2" head="t2" phrase="NP">
+      <span>
+        <target id="t2"/>
+      </span>
+    </chunk>
+    <!--aurreratu-->
+    <chunk id="c3" head="t3" phrase="VP">
+      <span>
+        <target id="t3"/>
+      </span>
+    </chunk>
+    <!--beharko litzateke-->
+    <chunk id="c4" head="t5" phrase="VP">
+      <span>
+        <target id="t4"/>
+        <target id="t5"/>
+      </span>
+    </chunk>
+    <!--Aire-->
+    <chunk id="c5" head="t7" phrase="NP">
+      <span>
+        <target id="t7"/>
+      </span>
+    </chunk>
+    <!--egokitua-->
+    <chunk id="c6" head="t8" phrase="VP">
+      <span>
+        <target id="t8"/>
+      </span>
+    </chunk>
+    <!--beharrrezkoa-->
+    <chunk id="c7" head="t9" phrase="NP">
+      <span>
+        <target id="t9"/>
+      </span>
+    </chunk>
+    <!--da-->
+    <chunk id="c8" head="t10" phrase="VP">
+      <span>
+        <target id="t10"/>
+      </span>
+    </chunk>
+    <!--Igeritokia-->
+    <chunk id="c9" head="t12" phrase="NP">
+      <span>
+        <target id="t12"/>
+      </span>
+    </chunk>
+    <!--Garbiketa-->
+    <chunk id="c10" head="t14" phrase="NP">
+      <span>
+        <target id="t14"/>
+      </span>
+    </chunk>
+    <!--Kokapena-->
+    <chunk id="c11" head="t16" phrase="NP">
+      <span>
+        <target id="t16"/>
+      </span>
+    </chunk>
+  </chunks>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=3 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Sarrera ordua -->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!-- aurreratu beharko litzateke -->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=6 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Aire egokitua -->
+        <span>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!-- beharrrezkoa -->
+        <span>
+          <target id="t9"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</NAF>

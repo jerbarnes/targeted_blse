@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="ca">
+  <kafHeader>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2016-01-14T21:05:35CET" beginTimestamp="2016-01-14T21:05:35CET" endTimestamp="2016-01-14T21:05:35CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2016-01-14T21:05:35CET" beginTimestamp="2016-01-14T21:05:35CET" endTimestamp="2016-01-14T21:05:35CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <linguisticProcessors layer="text">
+    <lp timestamp="Mon Dec  7 13:49:51 2015" version="3.1" name="Freeling"/>
+  </linguisticProcessors>
+  <linguisticProcessors layer="terms">
+    <lp timestamp="Mon Dec  7 13:49:51 2015" version="3.1" name="Freeling"/>
+  </linguisticProcessors>
+  <text>
+    <wf wid="w_1" para="1" sent="1">Bona</wf>
+    <wf wid="w_2" para="1" sent="1">ubicació</wf>
+    <wf wid="w_3" para="1" sent="1">.</wf>
+    <wf wid="w_4" para="1" sent="2">Relació</wf>
+    <wf wid="w_5" para="1" sent="2">qualitat-preu</wf>
+    <wf wid="w_6" para="1" sent="2">correcte</wf>
+    <wf wid="w_7" para="1" sent="2">.</wf>
+  </text>
+  <terms>
+    <term tid="t_1" lemma="bo" morphofeat="A" pos="AQ0FS0">
+      <span>
+        <target id="w_1"/>
+      </span>
+    </term>
+    <term tid="t_2" lemma="ubicació" morphofeat="N" pos="NCFS000">
+      <span>
+        <target id="w_2"/>
+      </span>
+    </term>
+    <term tid="t_3" lemma="." morphofeat="N" pos="NCMS000">
+      <span>
+        <target id="w_3"/>
+      </span>
+    </term>
+    <term tid="t_4" lemma="relació" morphofeat="N" pos="NCFS000">
+      <span>
+        <target id="w_4"/>
+      </span>
+    </term>
+    <term tid="t_5" lemma="qualitat-preu" morphofeat="N" pos="NCCS000">
+      <span>
+        <target id="w_5"/>
+      </span>
+    </term>
+    <term tid="t_6" lemma="correcte" morphofeat="A" pos="AQ0MS0">
+      <span>
+        <target id="w_6"/>
+      </span>
+    </term>
+    <term tid="t_7" lemma="." morphofeat="N" pos="NCMS000">
+      <span>
+        <target id="w_7"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=3 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- ubicació -->
+        <span>
+          <target id="t_2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- Bona -->
+        <span>
+          <target id="t_1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=6 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Relació qualitatpreu -->
+        <span>
+          <target id="t_4"/>
+          <target id="t_5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- correcte -->
+        <span>
+          <target id="t_6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

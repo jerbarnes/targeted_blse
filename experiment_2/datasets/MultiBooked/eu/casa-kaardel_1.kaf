@@ -1,0 +1,416 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="eu" version="v1.naf">
+  <nafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="ixa-pipe-tok-eu" beginTimestamp="2016-12-27T15:04:43+0100" endTimestamp="2016-12-27T15:04:43+0100" version="1.8.4-5e2c806d7e8bc1e5e537c7137d1bf54e2aa8978c" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ixa-pipe-pos-eu-pos-perceptron-epec" beginTimestamp="2017-02-28T23:59:39+0100" endTimestamp="2017-02-28T23:59:39+0100" version="1.5.1-bd1f1cc15fb2680b8f85106975a2c41bfedee81f" hostname="jeremy-Aspire-V5-573PG"/>
+      <lp name="ixa-pipe-chunk-eu-chunk-epec1.1.1-95f84d6b17fda12d3f249d9898dd941d8e1ca978" beginTimestamp="2017-02-28T23:59:40+0100" endTimestamp="2017-02-28T23:59:40+0100" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <text>
+    <wf id="w1" offset="0" length="1" sent="1" para="1">A</wf>
+    <wf id="w2" offset="1" length="1" sent="1" para="1">:</wf>
+    <wf id="w3" offset="3" length="10" sent="1" para="1">ahaztezina</wf>
+    <wf id="w4" offset="13" length="1" sent="1" para="1">.</wf>
+    <wf id="w5" offset="15" length="1" sent="2" para="1">E</wf>
+    <wf id="w6" offset="16" length="1" sent="2" para="1">:</wf>
+    <wf id="w7" offset="18" length="6" sent="2" para="1">ederra</wf>
+    <wf id="w8" offset="24" length="1" sent="2" para="1">.</wf>
+    <wf id="w9" offset="26" length="1" sent="3" para="1">I</wf>
+    <wf id="w10" offset="27" length="1" sent="3" para="1">:</wf>
+    <wf id="w11" offset="29" length="10" sent="3" para="1">ikusgarria</wf>
+    <wf id="w12" offset="39" length="1" sent="3" para="1">.</wf>
+    <wf id="w13" offset="41" length="1" sent="4" para="1">O</wf>
+    <wf id="w14" offset="42" length="1" sent="4" para="1">:</wf>
+    <wf id="w15" offset="44" length="6" sent="4" para="1">on-ona</wf>
+    <wf id="w16" offset="50" length="1" sent="4" para="1">,</wf>
+    <wf id="w17" offset="52" length="4" sent="4" para="1">ezin</wf>
+    <wf id="w18" offset="57" length="5" sent="4" para="1">hobea</wf>
+    <wf id="w19" offset="62" length="1" sent="4" para="1">.</wf>
+    <wf id="w20" offset="64" length="1" sent="5" para="1">U</wf>
+    <wf id="w21" offset="65" length="1" sent="5" para="1">:</wf>
+    <wf id="w22" offset="67" length="13" sent="5" para="1">urregorrizkoa</wf>
+    <wf id="w23" offset="80" length="1" sent="5" para="1">.</wf>
+    <wf id="w24" offset="82" length="12" sent="6" para="1">Horrelakoxea</wf>
+    <wf id="w25" offset="95" length="2" sent="6" para="1">da</wf>
+    <wf id="w26" offset="98" length="7" sent="6" para="1">Kaardel</wf>
+    <wf id="w27" offset="105" length="1" sent="6" para="1">!</wf>
+    <wf id="w28" offset="107" length="6" sent="7" para="1">Laster</wf>
+    <wf id="w29" offset="114" length="4" sent="7" para="1">arte</wf>
+    <wf id="w30" offset="118" length="1" sent="7" para="1">,</wf>
+    <wf id="w31" offset="120" length="7" sent="7" para="1">laukote</wf>
+    <wf id="w32" offset="127" length="1" sent="7" para="1">!</wf>
+  </text>
+  <terms>
+    <!--A-->
+    <term id="t1" type="close" lemma="a" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--:-->
+    <term id="t2" type="close" lemma=":" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--ahaztezina-->
+    <term id="t3" type="close" lemma="ahaztezin" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t4" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--E-->
+    <term id="t5" type="close" lemma="e" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--:-->
+    <term id="t6" type="close" lemma=":" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--ederra-->
+    <term id="t7" type="close" lemma="eder" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t8" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--I-->
+    <term id="t9" type="close" lemma="i" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--:-->
+    <term id="t10" type="close" lemma=":" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--ikusgarria-->
+    <term id="t11" type="close" lemma="ikusgarri" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t12" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--O-->
+    <term id="t13" type="close" lemma="__" pos="O" morphofeat="O">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--:-->
+    <term id="t14" type="close" lemma=":" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--on-ona-->
+    <term id="t15" type="close" lemma="on-on" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--,-->
+    <term id="t16" type="close" lemma="," pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--ezin-->
+    <term id="t17" type="close" lemma="ezin" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--hobea-->
+    <term id="t18" type="close" lemma="hobe" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t19" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--U-->
+    <term id="t20" type="close" lemma="u" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--:-->
+    <term id="t21" type="close" lemma=":" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--urregorrizkoa-->
+    <term id="t22" type="close" lemma="urregorrizko" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t23" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--Horrelakoxea-->
+    <term id="t24" type="close" lemma="horrelakoxe" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--da-->
+    <term id="t25" type="close" lemma="izan" pos="O" morphofeat="ADT">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--Kaardel-->
+    <term id="t26" type="close" lemma="kaardel" pos="O" morphofeat="IZE_IZB_ABS">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--!-->
+    <term id="t27" type="close" lemma="!" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--Laster-->
+    <term id="t28" type="close" lemma="laster" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--arte-->
+    <term id="t29" type="close" lemma="arte" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--,-->
+    <term id="t30" type="close" lemma="," pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--laukote-->
+    <term id="t31" type="close" lemma="laukote" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--!-->
+    <term id="t32" type="close" lemma="!" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+  </terms>
+  <chunks>
+    <!--A-->
+    <chunk id="c1" head="t1" phrase="NP">
+      <span>
+        <target id="t1"/>
+      </span>
+    </chunk>
+    <!--ahaztezina-->
+    <chunk id="c2" head="t3" phrase="NP">
+      <span>
+        <target id="t3"/>
+      </span>
+    </chunk>
+    <!--E-->
+    <chunk id="c3" head="t5" phrase="NP">
+      <span>
+        <target id="t5"/>
+      </span>
+    </chunk>
+    <!--ederra-->
+    <chunk id="c4" head="t7" phrase="NP">
+      <span>
+        <target id="t7"/>
+      </span>
+    </chunk>
+    <!--I-->
+    <chunk id="c5" head="t9" phrase="NP">
+      <span>
+        <target id="t9"/>
+      </span>
+    </chunk>
+    <!--ikusgarria-->
+    <chunk id="c6" head="t11" phrase="NP">
+      <span>
+        <target id="t11"/>
+      </span>
+    </chunk>
+    <!--O-->
+    <chunk id="c7" head="t13" phrase="NP">
+      <span>
+        <target id="t13"/>
+      </span>
+    </chunk>
+    <!--on-ona-->
+    <chunk id="c8" head="t15" phrase="NP">
+      <span>
+        <target id="t15"/>
+      </span>
+    </chunk>
+    <!--ezin-->
+    <chunk id="c9" head="t17" phrase="NP">
+      <span>
+        <target id="t17"/>
+      </span>
+    </chunk>
+    <!--hobea-->
+    <chunk id="c10" head="t18" phrase="NP">
+      <span>
+        <target id="t18"/>
+      </span>
+    </chunk>
+    <!--U : urregorrizkoa-->
+    <chunk id="c11" head="t22" phrase="NP">
+      <span>
+        <target id="t20"/>
+        <target id="t21"/>
+        <target id="t22"/>
+      </span>
+    </chunk>
+    <!--Horrelakoxea-->
+    <chunk id="c12" head="t24" phrase="NP">
+      <span>
+        <target id="t24"/>
+      </span>
+    </chunk>
+    <!--da-->
+    <chunk id="c13" head="t25" phrase="VP">
+      <span>
+        <target id="t25"/>
+      </span>
+    </chunk>
+    <!--Kaardel-->
+    <chunk id="c14" head="t26" phrase="NP">
+      <span>
+        <target id="t26"/>
+      </span>
+    </chunk>
+    <!--Laster arte-->
+    <chunk id="c15" head="t29" phrase="NP">
+      <span>
+        <target id="t28"/>
+        <target id="t29"/>
+      </span>
+    </chunk>
+    <!--laukote-->
+    <chunk id="c16" head="t31" phrase="NP">
+      <span>
+        <target id="t31"/>
+      </span>
+    </chunk>
+  </chunks>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=10 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!-- ezin hobea -->
+        <span>
+          <target id="t17"/>
+          <target id="t18"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=12 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!-- urregorrizkoa -->
+        <span>
+          <target id="t22"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!-- Tag opinion scope id=2 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!-- ahaztezina -->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!-- Tag opinion scope id=4 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!-- ederra -->
+        <span>
+          <target id="t7"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!-- Tag opinion scope id=6 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!-- ikusgarria -->
+        <span>
+          <target id="t11"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o5">
+      <!-- Tag opinion scope id=8 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!-- onona -->
+        <span>
+          <target id="t15"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</NAF>

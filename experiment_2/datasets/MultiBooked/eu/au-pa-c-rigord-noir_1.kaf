@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="eu" version="v1.naf">
+  <nafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="ixa-pipe-tok-eu" beginTimestamp="2016-12-27T15:04:35+0100" endTimestamp="2016-12-27T15:04:35+0100" version="1.8.4-5e2c806d7e8bc1e5e537c7137d1bf54e2aa8978c" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ixa-pipe-pos-eu-pos-perceptron-epec" beginTimestamp="2017-02-28T23:58:29+0100" endTimestamp="2017-02-28T23:58:29+0100" version="1.5.1-bd1f1cc15fb2680b8f85106975a2c41bfedee81f" hostname="jeremy-Aspire-V5-573PG"/>
+      <lp name="ixa-pipe-chunk-eu-chunk-epec1.1.1-95f84d6b17fda12d3f249d9898dd941d8e1ca978" beginTimestamp="2017-02-28T23:58:30+0100" endTimestamp="2017-02-28T23:58:30+0100" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <text>
+    <wf id="w1" offset="0" length="13" sent="1" para="1">Atsedenaldiko</wf>
+    <wf id="w2" offset="14" length="10" sent="1" para="1">geldialdia</wf>
+    <wf id="w3" offset="25" length="3" sent="1" para="1">zen</wf>
+    <wf id="w4" offset="28" length="1" sent="1" para="1">.</wf>
+    <wf id="w5" offset="30" length="8" sent="2" para="1">Herritik</wf>
+    <wf id="w6" offset="39" length="3" sent="2" para="1">2-3</wf>
+    <wf id="w7" offset="43" length="2" sent="2" para="1">km</wf>
+    <wf id="w8" offset="46" length="4" sent="2" para="1">dago</wf>
+    <wf id="w9" offset="51" length="6" sent="2" para="1">hotela</wf>
+    <wf id="w10" offset="57" length="1" sent="2" para="1">.</wf>
+    <wf id="w11" offset="59" length="8" sent="3" para="1">Gaztelua</wf>
+    <wf id="w12" offset="68" length="11" sent="3" para="1">harrigarria</wf>
+    <wf id="w13" offset="80" length="3" sent="3" para="1">eta</wf>
+    <wf id="w14" offset="84" length="6" sent="3" para="1">herria</wf>
+    <wf id="w15" offset="91" length="3" sent="3" para="1">oso</wf>
+    <wf id="w16" offset="95" length="6" sent="3" para="1">ederra</wf>
+    <wf id="w17" offset="101" length="1" sent="3" para="1">.</wf>
+    <wf id="w18" offset="103" length="8" sent="4" para="1">Hotelean</wf>
+    <wf id="w19" offset="112" length="4" sent="4" para="1">dena</wf>
+    <wf id="w20" offset="117" length="4" sent="4" para="1">ongi</wf>
+    <wf id="w21" offset="121" length="1" sent="4" para="1">,</wf>
+    <wf id="w22" offset="123" length="4" sent="4" para="1">ezin</wf>
+    <wf id="w23" offset="128" length="4" sent="4" para="1">zaio</wf>
+    <wf id="w24" offset="133" length="10" sent="4" para="1">gehiagorik</wf>
+    <wf id="w25" offset="144" length="6" sent="4" para="1">eskatu</wf>
+    <wf id="w26" offset="150" length="1" sent="4" para="1">.</wf>
+  </text>
+  <terms>
+    <!--Atsedenaldiko-->
+    <term id="t1" type="close" lemma="atsedenaldi" pos="O" morphofeat="IZE_ARR_GEL">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--geldialdia-->
+    <term id="t2" type="close" lemma="geldialdi" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--zen-->
+    <term id="t3" type="close" lemma="izan" pos="O" morphofeat="ADT">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t4" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--Herritik-->
+    <term id="t5" type="close" lemma="herri" pos="O" morphofeat="IZE_ARR_ABL">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--2-3-->
+    <term id="t6" type="close" lemma="2-3" pos="O" morphofeat="DET_DZH_ZERO">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--km-->
+    <term id="t7" type="close" lemma="km" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--dago-->
+    <term id="t8" type="close" lemma="egon" pos="O" morphofeat="ADT">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--hotela-->
+    <term id="t9" type="close" lemma="hotel" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t10" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--Gaztelua-->
+    <term id="t11" type="close" lemma="gaztelu" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--harrigarria-->
+    <term id="t12" type="close" lemma="harrigarri" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--eta-->
+    <term id="t13" type="close" lemma="eta" pos="O" morphofeat="LOT_JNT">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--herria-->
+    <term id="t14" type="close" lemma="herri" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--oso-->
+    <term id="t15" type="close" lemma="oso" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--ederra-->
+    <term id="t16" type="close" lemma="eder" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t17" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--Hotelean-->
+    <term id="t18" type="close" lemma="hotel" pos="O" morphofeat="IZE_ARR_INE">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--dena-->
+    <term id="t19" type="close" lemma="dena" pos="O" morphofeat="DET_ORO_ABS">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--ongi-->
+    <term id="t20" type="close" lemma="ongi" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--,-->
+    <term id="t21" type="close" lemma="," pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--ezin-->
+    <term id="t22" type="close" lemma="ezin_izan" pos="O" morphofeat="ADI_ADK_NOTDEK">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--zaio-->
+    <term id="t23" type="close" lemma="izan" pos="O" morphofeat="ADL">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--gehiagorik-->
+    <term id="t24" type="close" lemma="gehiago" pos="O" morphofeat="ADJ_ARR_PAR">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--eskatu-->
+    <term id="t25" type="close" lemma="eskatu" pos="O" morphofeat="ADI_SIN_NOTDEK">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t26" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+  </terms>
+  <chunks>
+    <!--Atsedenaldiko geldialdia-->
+    <chunk id="c1" head="t2" phrase="NP">
+      <span>
+        <target id="t1"/>
+        <target id="t2"/>
+      </span>
+    </chunk>
+    <!--zen-->
+    <chunk id="c2" head="t3" phrase="VP">
+      <span>
+        <target id="t3"/>
+      </span>
+    </chunk>
+    <!--Herritik-->
+    <chunk id="c3" head="t5" phrase="NP">
+      <span>
+        <target id="t5"/>
+      </span>
+    </chunk>
+    <!--2-3 km-->
+    <chunk id="c4" head="t7" phrase="NP">
+      <span>
+        <target id="t6"/>
+        <target id="t7"/>
+      </span>
+    </chunk>
+    <!--dago-->
+    <chunk id="c5" head="t8" phrase="VP">
+      <span>
+        <target id="t8"/>
+      </span>
+    </chunk>
+    <!--hotela-->
+    <chunk id="c6" head="t9" phrase="NP">
+      <span>
+        <target id="t9"/>
+      </span>
+    </chunk>
+    <!--Gaztelua-->
+    <chunk id="c7" head="t11" phrase="NP">
+      <span>
+        <target id="t11"/>
+      </span>
+    </chunk>
+    <!--harrigarria-->
+    <chunk id="c8" head="t12" phrase="NP">
+      <span>
+        <target id="t12"/>
+      </span>
+    </chunk>
+    <!--herria-->
+    <chunk id="c9" head="t14" phrase="NP">
+      <span>
+        <target id="t14"/>
+      </span>
+    </chunk>
+    <!--oso ederra-->
+    <chunk id="c10" head="t16" phrase="NP">
+      <span>
+        <target id="t15"/>
+        <target id="t16"/>
+      </span>
+    </chunk>
+    <!--Hotelean-->
+    <chunk id="c11" head="t18" phrase="NP">
+      <span>
+        <target id="t18"/>
+      </span>
+    </chunk>
+    <!--dena-->
+    <chunk id="c12" head="t19" phrase="NP">
+      <span>
+        <target id="t19"/>
+      </span>
+    </chunk>
+    <!--ongi-->
+    <chunk id="c13" head="t20" phrase="NP">
+      <span>
+        <target id="t20"/>
+      </span>
+    </chunk>
+    <!--ezin zaio-->
+    <chunk id="c14" head="t23" phrase="VP">
+      <span>
+        <target id="t22"/>
+        <target id="t23"/>
+      </span>
+    </chunk>
+    <!--gehiagorik-->
+    <chunk id="c15" head="t24" phrase="NP">
+      <span>
+        <target id="t24"/>
+      </span>
+    </chunk>
+    <!--eskatu-->
+    <chunk id="c16" head="t25" phrase="VP">
+      <span>
+        <target id="t25"/>
+      </span>
+    </chunk>
+  </chunks>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=10 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Hotelean dena -->
+        <span>
+          <target id="t18"/>
+          <target id="t19"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- ezin zaio gehiagorik eskatu -->
+        <span>
+          <target id="t22"/>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=10 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Hotelean dena -->
+        <span>
+          <target id="t18"/>
+          <target id="t19"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- ongi -->
+        <span>
+          <target id="t20"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!-- Tag opinion scope id=3 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Gaztelua -->
+        <span>
+          <target id="t11"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- harrigarria -->
+        <span>
+          <target id="t12"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!-- Tag opinion scope id=6 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- herria -->
+        <span>
+          <target id="t14"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- oso ederra -->
+        <span>
+          <target id="t15"/>
+          <target id="t16"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</NAF>

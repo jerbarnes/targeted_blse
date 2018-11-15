@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="ca">
+  <kafHeader>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2016-01-15T17:57:18CET" beginTimestamp="2016-01-15T17:57:18CET" endTimestamp="2016-01-15T17:57:18CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2016-01-15T17:57:18CET" beginTimestamp="2016-01-15T17:57:18CET" endTimestamp="2016-01-15T17:57:18CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <linguisticProcessors layer="text">
+    <lp timestamp="Mon Dec  7 13:49:50 2015" version="3.1" name="Freeling"/>
+  </linguisticProcessors>
+  <linguisticProcessors layer="terms">
+    <lp timestamp="Mon Dec  7 13:49:50 2015" version="3.1" name="Freeling"/>
+  </linguisticProcessors>
+  <text>
+    <wf wid="w_1" para="1" sent="1">l</wf>
+    <wf wid="w_2" para="1" sent="1">'</wf>
+    <wf wid="w_3" para="1" sent="1">esmorzar</wf>
+    <wf wid="w_4" para="1" sent="1">es</wf>
+    <wf wid="w_5" para="1" sent="1">molt</wf>
+    <wf wid="w_6" para="1" sent="1">complert</wf>
+    <wf wid="w_7" para="1" sent="1">,</wf>
+    <wf wid="w_8" para="1" sent="1">l</wf>
+    <wf wid="w_9" para="1" sent="1">'</wf>
+    <wf wid="w_10" para="1" sent="1">habitació</wf>
+    <wf wid="w_11" para="1" sent="1">doble</wf>
+    <wf wid="w_12" para="1" sent="1">superior</wf>
+    <wf wid="w_13" para="1" sent="1">es</wf>
+    <wf wid="w_14" para="1" sent="1">molt</wf>
+    <wf wid="w_15" para="1" sent="1">acollidora</wf>
+  </text>
+  <terms>
+    <term tid="t_1" lemma="litre" morphofeat="N" pos="NCMN000">
+      <span>
+        <target id="w_1"/>
+      </span>
+    </term>
+    <term tid="t_2" lemma="'" morphofeat="V" pos="VMIP3S0">
+      <span>
+        <target id="w_2"/>
+      </span>
+    </term>
+    <term tid="t_3" lemma="esmorzar" morphofeat="V" pos="VMN0000">
+      <span>
+        <target id="w_3"/>
+      </span>
+    </term>
+    <term tid="t_4" lemma="es" morphofeat="P" pos="P0300000">
+      <span>
+        <target id="w_4"/>
+      </span>
+    </term>
+    <term tid="t_5" lemma="molt" morphofeat="R" pos="RG">
+      <span>
+        <target id="w_5"/>
+      </span>
+    </term>
+    <term tid="t_6" lemma="complir" morphofeat="V" pos="VMP00SM">
+      <span>
+        <target id="w_6"/>
+      </span>
+    </term>
+    <term tid="t_7" lemma="," morphofeat="R" pos="RG">
+      <span>
+        <target id="w_7"/>
+      </span>
+    </term>
+    <term tid="t_8" lemma="litre" morphofeat="N" pos="NCMN000">
+      <span>
+        <target id="w_8"/>
+      </span>
+    </term>
+    <term tid="t_9" lemma="'" morphofeat="A" pos="AQ0CS0">
+      <span>
+        <target id="w_9"/>
+      </span>
+    </term>
+    <term tid="t_10" lemma="habitació" morphofeat="N" pos="NCFS000">
+      <span>
+        <target id="w_10"/>
+      </span>
+    </term>
+    <term tid="t_11" lemma="doble" morphofeat="A" pos="AQ0CS0">
+      <span>
+        <target id="w_11"/>
+      </span>
+    </term>
+    <term tid="t_12" lemma="superior" morphofeat="A" pos="AQ0CS0">
+      <span>
+        <target id="w_12"/>
+      </span>
+    </term>
+    <term tid="t_13" lemma="es" morphofeat="P" pos="P0300000">
+      <span>
+        <target id="w_13"/>
+      </span>
+    </term>
+    <term tid="t_14" lemma="molt" morphofeat="R" pos="RG">
+      <span>
+        <target id="w_14"/>
+      </span>
+    </term>
+    <term tid="t_15" lemma="acollidor" morphofeat="A" pos="AQ0FS0">
+      <span>
+        <target id="w_15"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=3 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- l ' esmorzar -->
+        <span>
+          <target id="t_1"/>
+          <target id="t_2"/>
+          <target id="t_3"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- molt complert -->
+        <span>
+          <target id="t_5"/>
+          <target id="t_6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=6 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- l ' habitació doble superior -->
+        <span>
+          <target id="t_8"/>
+          <target id="t_9"/>
+          <target id="t_10"/>
+          <target id="t_11"/>
+          <target id="t_12"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- molt acollidora -->
+        <span>
+          <target id="t_14"/>
+          <target id="t_15"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="eu" version="v1.naf">
+  <nafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="ixa-pipe-tok-eu" beginTimestamp="2016-12-27T15:04:17+0100" endTimestamp="2016-12-27T15:04:17+0100" version="1.8.4-5e2c806d7e8bc1e5e537c7137d1bf54e2aa8978c" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ixa-pipe-pos-eu-pos-perceptron-epec" beginTimestamp="2017-02-14T02:08:24+0100" endTimestamp="2017-02-14T02:08:24+0100" version="1.5.1-bd1f1cc15fb2680b8f85106975a2c41bfedee81f" hostname="jeremy-Aspire-V5-573PG"/>
+      <lp name="ixa-pipe-chunk-eu-chunk-epec1.1.1-95f84d6b17fda12d3f249d9898dd941d8e1ca978" beginTimestamp="2017-02-14T02:08:25+0100" endTimestamp="2017-02-14T02:08:25+0100" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2017-02-14T02:10:48CET" beginTimestamp="2017-02-14T02:10:48CET" endTimestamp="2017-02-14T02:10:48CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2017-02-14T02:10:48CET" beginTimestamp="2017-02-14T02:10:48CET" endTimestamp="2017-02-14T02:10:48CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <text>
+    <wf id="w1" offset="0" length="3" sent="1" para="1">Oso</wf>
+    <wf id="w2" offset="4" length="7" sent="1" para="1">gustora</wf>
+    <wf id="w3" offset="11" length="1" sent="1" para="1">,</wf>
+    <wf id="w4" offset="13" length="5" sent="1" para="1">lasai</wf>
+    <wf id="w5" offset="19" length="7" sent="1" para="1">egoteko</wf>
+    <wf id="w6" offset="27" length="5" sent="1" para="1">lekua</wf>
+    <wf id="w7" offset="32" length="1" sent="1" para="1">,</wf>
+    <wf id="w8" offset="34" length="6" sent="1" para="1">neskie</wf>
+    <wf id="w9" offset="41" length="3" sent="1" para="1">oso</wf>
+    <wf id="w10" offset="45" length="5" sent="1" para="1">majie</wf>
+    <wf id="w11" offset="51" length="8" sent="1" para="1">ondorioz</wf>
+    <wf id="w12" offset="60" length="4" sent="1" para="1">leku</wf>
+    <wf id="w13" offset="65" length="8" sent="1" para="1">aproposa</wf>
+    <wf id="w14" offset="73" length="1" sent="1" para="1">,</wf>
+    <wf id="w15" offset="75" length="7" sent="1" para="1">berriro</wf>
+    <wf id="w16" offset="83" length="9" sent="1" para="1">bueltzeko</wf>
+    <wf id="w17" offset="93" length="7" sent="1" para="1">modukoa</wf>
+    <wf id="w18" offset="100" length="1" sent="1" para="1">.</wf>
+    <wf id="w19" offset="102" length="8" sent="2" para="1">Eskerrik</wf>
+    <wf id="w20" offset="111" length="4" sent="2" para="1">asko</wf>
+    <wf id="w21" offset="115" length="2" sent="2" para="1">!!</wf>
+  </text>
+  <terms>
+    <!--Oso-->
+    <term id="t1" type="close" lemma="oso" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--gustora-->
+    <term id="t2" type="close" lemma="gustura" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--,-->
+    <term id="t3" type="close" lemma="," pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--lasai-->
+    <term id="t4" type="close" lemma="lasai" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--egoteko-->
+    <term id="t5" type="close" lemma="egon" pos="O" morphofeat="ADI_SIN_GEL">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--lekua-->
+    <term id="t6" type="close" lemma="leku" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--,-->
+    <term id="t7" type="close" lemma="," pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--neskie-->
+    <term id="t8" type="close" lemma="neskie" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--oso-->
+    <term id="t9" type="close" lemma="oso" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--majie-->
+    <term id="t10" type="close" lemma="majie" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--ondorioz-->
+    <term id="t11" type="close" lemma="ondorio" pos="O" morphofeat="IZE_ARR_INS">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--leku-->
+    <term id="t12" type="close" lemma="leku" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--aproposa-->
+    <term id="t13" type="close" lemma="apropos" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--,-->
+    <term id="t14" type="close" lemma="," pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--berriro-->
+    <term id="t15" type="close" lemma="berriro" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--bueltzeko-->
+    <term id="t16" type="close" lemma="bueldu" pos="O" morphofeat="ADI_SIN_GEL">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--modukoa-->
+    <term id="t17" type="close" lemma="modu" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t18" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--Eskerrik-->
+    <term id="t19" type="close" lemma="esker" pos="O" morphofeat="IZE_ARR_PAR">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--asko-->
+    <term id="t20" type="close" lemma="asko" pos="O" morphofeat="DET_DZG_ABS">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--!!-->
+    <term id="t21" type="close" lemma="!!" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+  </terms>
+  <chunks>
+    <!--Oso gustora-->
+    <chunk id="c1" head="t2" phrase="NP">
+      <span>
+        <target id="t1"/>
+        <target id="t2"/>
+      </span>
+    </chunk>
+    <!--lasai-->
+    <chunk id="c2" head="t4" phrase="NP">
+      <span>
+        <target id="t4"/>
+      </span>
+    </chunk>
+    <!--egoteko-->
+    <chunk id="c3" head="t5" phrase="VP">
+      <span>
+        <target id="t5"/>
+      </span>
+    </chunk>
+    <!--lekua-->
+    <chunk id="c4" head="t6" phrase="NP">
+      <span>
+        <target id="t6"/>
+      </span>
+    </chunk>
+    <!--neskie oso majie ondorioz-->
+    <chunk id="c5" head="t11" phrase="NP">
+      <span>
+        <target id="t8"/>
+        <target id="t9"/>
+        <target id="t10"/>
+        <target id="t11"/>
+      </span>
+    </chunk>
+    <!--leku aproposa-->
+    <chunk id="c6" head="t13" phrase="NP">
+      <span>
+        <target id="t12"/>
+        <target id="t13"/>
+      </span>
+    </chunk>
+    <!--berriro-->
+    <chunk id="c7" head="t15" phrase="NP">
+      <span>
+        <target id="t15"/>
+      </span>
+    </chunk>
+    <!--bueltzeko-->
+    <chunk id="c8" head="t16" phrase="VP">
+      <span>
+        <target id="t16"/>
+      </span>
+    </chunk>
+    <!--modukoa-->
+    <chunk id="c9" head="t17" phrase="NP">
+      <span>
+        <target id="t17"/>
+      </span>
+    </chunk>
+    <!--Eskerrik-->
+    <chunk id="c10" head="t19" phrase="NP">
+      <span>
+        <target id="t19"/>
+      </span>
+    </chunk>
+    <!--asko-->
+    <chunk id="c11" head="t20" phrase="NP">
+      <span>
+        <target id="t20"/>
+      </span>
+    </chunk>
+  </chunks>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=11 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- leku -->
+        <span>
+          <target id="t12"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- aproposa -->
+        <span>
+          <target id="t13"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=13 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!-- berriro bueltzeko modukoa -->
+        <span>
+          <target id="t15"/>
+          <target id="t16"/>
+          <target id="t17"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!-- Tag opinion scope id=15 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!-- Eskerrik asko !! -->
+        <span>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!-- Tag opinion scope id=2 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!-- Oso gustora -->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!-- Tag opinion scope id=5 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- lekua -->
+        <span>
+          <target id="t6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- lasai egoteko -->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o5">
+      <!-- Tag opinion scope id=8 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- neskie -->
+        <span>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- oso majie -->
+        <span>
+          <target id="t9"/>
+          <target id="t10"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</NAF>

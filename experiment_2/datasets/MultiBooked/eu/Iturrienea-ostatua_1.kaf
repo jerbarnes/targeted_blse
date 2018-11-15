@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="eu" version="v1.naf">
+  <nafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="ixa-pipe-tok-eu" beginTimestamp="2016-12-27T15:05:06+0100" endTimestamp="2016-12-27T15:05:06+0100" version="1.8.4-5e2c806d7e8bc1e5e537c7137d1bf54e2aa8978c" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ixa-pipe-pos-eu-pos-perceptron-epec" beginTimestamp="2017-03-09T01:03:34+0100" endTimestamp="2017-03-09T01:03:35+0100" version="1.5.1-bd1f1cc15fb2680b8f85106975a2c41bfedee81f" hostname="jeremy-Aspire-V5-573PG"/>
+      <lp name="ixa-pipe-chunk-eu-chunk-epec1.1.1-95f84d6b17fda12d3f249d9898dd941d8e1ca978" beginTimestamp="2017-03-09T01:03:35+0100" endTimestamp="2017-03-09T01:03:35+0100" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2017-03-09T01:36:20CET" beginTimestamp="2017-03-09T01:36:20CET" endTimestamp="2017-03-09T01:36:20CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2017-03-09T01:36:20CET" beginTimestamp="2017-03-09T01:36:20CET" endTimestamp="2017-03-09T01:36:20CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <text>
+    <wf id="w1" offset="0" length="9" sent="1" para="1">Iruzkinak</wf>
+    <wf id="w2" offset="10" length="8" sent="1" para="1">euskaraz</wf>
+    <wf id="w3" offset="19" length="7" sent="1" para="1">egiteko</wf>
+    <wf id="w4" offset="27" length="6" sent="1" para="1">aukera</wf>
+    <wf id="w5" offset="34" length="2" sent="1" para="1">ez</wf>
+    <wf id="w6" offset="37" length="6" sent="1" para="1">izatea</wf>
+    <wf id="w7" offset="43" length="1" sent="1" para="1">.</wf>
+    <wf id="w8" offset="45" length="5" sent="2" para="1">Azken</wf>
+    <wf id="w9" offset="51" length="6" sent="2" para="1">finean</wf>
+    <wf id="w10" offset="57" length="1" sent="2" para="1">,</wf>
+    <wf id="w11" offset="59" length="7" sent="2" para="1">Bilboko</wf>
+    <wf id="w12" offset="67" length="6" sent="2" para="1">ostatu</wf>
+    <wf id="w13" offset="74" length="3" sent="2" para="1">bat</wf>
+    <wf id="w14" offset="78" length="3" sent="2" para="1">da.</wf>
+    <wf id="w15" offset="82" length="10" sent="2" para="1">dekorazioa</wf>
+    <wf id="w16" offset="93" length="6" sent="2" para="1">euskal</wf>
+    <wf id="w17" offset="100" length="12" sent="2" para="1">tradiziokoa.</wf>
+    <wf id="w18" offset="113" length="5" sent="2" para="1">izena</wf>
+    <wf id="w19" offset="119" length="3" sent="2" para="1">ere</wf>
+    <wf id="w20" offset="123" length="10" sent="2" para="1">euskalduna</wf>
+    <wf id="w21" offset="133" length="3" sent="2" para="1">...</wf>
+    <wf id="w22" offset="137" length="2" sent="3" para="1">Ea</wf>
+    <wf id="w23" offset="140" length="12" sent="3" para="1">etorkizunean</wf>
+    <wf id="w24" offset="153" length="6" sent="3" para="1">aukera</wf>
+    <wf id="w25" offset="160" length="6" sent="3" para="1">emango</wf>
+    <wf id="w26" offset="167" length="6" sent="3" para="1">duzuen</wf>
+    <wf id="w27" offset="173" length="3" sent="3" para="1">...</wf>
+    <wf id="w28" offset="179" length="4" sent="4" para="1">Dena</wf>
+    <wf id="w29" offset="184" length="1" sent="4" para="1">(</wf>
+    <wf id="w30" offset="185" length="8" sent="4" para="1">ondokoan</wf>
+    <wf id="w31" offset="194" length="10" sent="4" para="1">jarritakoa</wf>
+    <wf id="w32" offset="205" length="4" sent="4" para="1">izan</wf>
+    <wf id="w33" offset="210" length="4" sent="4" para="1">ezik</wf>
+    <wf id="w34" offset="214" length="1" sent="4" para="1">)</wf>
+  </text>
+  <terms>
+    <!--Iruzkinak-->
+    <term id="t1" type="close" lemma="iruzkina" pos="O" morphofeat="IZE_IZB_ERG">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--euskaraz-->
+    <term id="t2" type="close" lemma="euskara" pos="O" morphofeat="IZE_ARR_INS">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--egiteko-->
+    <term id="t3" type="close" lemma="egin" pos="O" morphofeat="ADI_SIN_GEL">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--aukera-->
+    <term id="t4" type="close" lemma="aukera" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--ez-->
+    <term id="t5" type="close" lemma="ez" pos="O" morphofeat="PRT_EGI">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--izatea-->
+    <term id="t6" type="close" lemma="izan" pos="O" morphofeat="ADI_SIN_ABS">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t7" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--Azken-->
+    <term id="t8" type="close" lemma="azken" pos="O" morphofeat="DET_ORD_ZERO">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--finean-->
+    <term id="t9" type="close" lemma="fin" pos="O" morphofeat="IZE_ARR_INE">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--,-->
+    <term id="t10" type="close" lemma="," pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--Bilboko-->
+    <term id="t11" type="close" lemma="bilbo" pos="O" morphofeat="IZE_LIB_GEL">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--ostatu-->
+    <term id="t12" type="close" lemma="ostatu" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--bat-->
+    <term id="t13" type="close" lemma="bat" pos="O" morphofeat="DET_DZH_ABS">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--da.-->
+    <term id="t14" type="close" lemma="ua.n" pos="O" morphofeat="ADT">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--dekorazioa-->
+    <term id="t15" type="close" lemma="dekorazio" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--euskal-->
+    <term id="t16" type="close" lemma="euskal" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--tradiziokoa.-->
+    <term id="t17" type="close" lemma="tradiziokoa." pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--izena-->
+    <term id="t18" type="close" lemma="izen" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--ere-->
+    <term id="t19" type="close" lemma="ere" pos="O" morphofeat="LOT_LOK">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--euskalduna-->
+    <term id="t20" type="close" lemma="euskaldun" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--...-->
+    <term id="t21" type="close" lemma="..." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--Ea-->
+    <term id="t22" type="close" lemma="ea" pos="O" morphofeat="BST">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--etorkizunean-->
+    <term id="t23" type="close" lemma="etorkizun" pos="O" morphofeat="IZE_ARR_INE">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--aukera-->
+    <term id="t24" type="close" lemma="aukera" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--emango-->
+    <term id="t25" type="close" lemma="eman" pos="O" morphofeat="ADI_SIN_NOTDEK">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--duzuen-->
+    <term id="t26" type="close" lemma="*edun" pos="O" morphofeat="ADL">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--...-->
+    <term id="t27" type="close" lemma="..." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--Dena-->
+    <term id="t28" type="close" lemma="dena" pos="O" morphofeat="DET_ORO_ABS">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--(-->
+    <term id="t29" type="close" lemma="(" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--ondokoan-->
+    <term id="t30" type="close" lemma="ondoko" pos="O" morphofeat="ADJ_ARR_INE">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--jarritakoa-->
+    <term id="t31" type="close" lemma="jarri" pos="O" morphofeat="ADI_IZEELI_PART_ABS">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--izan-->
+    <term id="t32" type="close" lemma="izan" pos="O" morphofeat="ADI_SIN_NOTDEK">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--ezik-->
+    <term id="t33" type="close" lemma="ezik" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--)-->
+    <term id="t34" type="close" lemma=")" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+  </terms>
+  <chunks>
+    <!--Iruzkinak-->
+    <chunk id="c1" head="t1" phrase="NP">
+      <span>
+        <target id="t1"/>
+      </span>
+    </chunk>
+    <!--euskaraz-->
+    <chunk id="c2" head="t2" phrase="NP">
+      <span>
+        <target id="t2"/>
+      </span>
+    </chunk>
+    <!--egiteko-->
+    <chunk id="c3" head="t3" phrase="VP">
+      <span>
+        <target id="t3"/>
+      </span>
+    </chunk>
+    <!--aukera-->
+    <chunk id="c4" head="t4" phrase="NP">
+      <span>
+        <target id="t4"/>
+      </span>
+    </chunk>
+    <!--ez izatea-->
+    <chunk id="c5" head="t6" phrase="VP">
+      <span>
+        <target id="t5"/>
+        <target id="t6"/>
+      </span>
+    </chunk>
+    <!--Azken finean-->
+    <chunk id="c6" head="t9" phrase="NP">
+      <span>
+        <target id="t8"/>
+        <target id="t9"/>
+      </span>
+    </chunk>
+    <!--Bilboko ostatu bat-->
+    <chunk id="c7" head="t13" phrase="NP">
+      <span>
+        <target id="t11"/>
+        <target id="t12"/>
+        <target id="t13"/>
+      </span>
+    </chunk>
+    <!--da.-->
+    <chunk id="c8" head="t14" phrase="VP">
+      <span>
+        <target id="t14"/>
+      </span>
+    </chunk>
+    <!--dekorazioa-->
+    <chunk id="c9" head="t15" phrase="NP">
+      <span>
+        <target id="t15"/>
+      </span>
+    </chunk>
+    <!--euskal tradiziokoa. izena-->
+    <chunk id="c10" head="t18" phrase="NP">
+      <span>
+        <target id="t16"/>
+        <target id="t17"/>
+        <target id="t18"/>
+      </span>
+    </chunk>
+    <!--euskalduna-->
+    <chunk id="c11" head="t20" phrase="NP">
+      <span>
+        <target id="t20"/>
+      </span>
+    </chunk>
+    <!--etorkizunean-->
+    <chunk id="c12" head="t23" phrase="NP">
+      <span>
+        <target id="t23"/>
+      </span>
+    </chunk>
+    <!--aukera-->
+    <chunk id="c13" head="t24" phrase="NP">
+      <span>
+        <target id="t24"/>
+      </span>
+    </chunk>
+    <!--emango duzuen-->
+    <chunk id="c14" head="t26" phrase="VP">
+      <span>
+        <target id="t25"/>
+        <target id="t26"/>
+      </span>
+    </chunk>
+    <!--Dena-->
+    <chunk id="c15" head="t28" phrase="NP">
+      <span>
+        <target id="t28"/>
+      </span>
+    </chunk>
+    <!--ondokoan-->
+    <chunk id="c16" head="t30" phrase="NP">
+      <span>
+        <target id="t30"/>
+      </span>
+    </chunk>
+    <!--jarritakoa-->
+    <chunk id="c17" head="t31" phrase="NP">
+      <span>
+        <target id="t31"/>
+      </span>
+    </chunk>
+    <!--izan-->
+    <chunk id="c18" head="t32" phrase="VP">
+      <span>
+        <target id="t32"/>
+      </span>
+    </chunk>
+    <!--ezik-->
+    <chunk id="c19" head="t33" phrase="NP">
+      <span>
+        <target id="t33"/>
+      </span>
+    </chunk>
+  </chunks>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=3 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Iruzkinak -->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!-- euskaraz egiteko aukera ez izatea -->
+        <span>
+          <target id="t2"/>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</NAF>

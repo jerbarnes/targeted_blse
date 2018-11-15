@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="ca">
+  <kafHeader>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2016-01-15T17:57:18CET" beginTimestamp="2016-01-15T17:57:18CET" endTimestamp="2016-01-15T17:57:18CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2016-01-15T17:57:18CET" beginTimestamp="2016-01-15T17:57:18CET" endTimestamp="2016-01-15T17:57:18CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <linguisticProcessors layer="text">
+    <lp timestamp="Mon Dec  7 13:49:47 2015" version="3.1" name="Freeling"/>
+  </linguisticProcessors>
+  <linguisticProcessors layer="terms">
+    <lp timestamp="Mon Dec  7 13:49:47 2015" version="3.1" name="Freeling"/>
+  </linguisticProcessors>
+  <text>
+    <wf wid="w_1" para="1" sent="1">Esmorzar</wf>
+    <wf wid="w_2" para="1" sent="1">molt</wf>
+    <wf wid="w_3" para="1" sent="1">complert</wf>
+    <wf wid="w_4" para="1" sent="1">i</wf>
+    <wf wid="w_5" para="1" sent="1">l</wf>
+    <wf wid="w_6" para="1" sent="1">horari</wf>
+    <wf wid="w_7" para="1" sent="1">ampli</wf>
+    <wf wid="w_8" para="1" sent="1">.</wf>
+    <wf wid="w_9" para="1" sent="2">Molt</wf>
+    <wf wid="w_10" para="1" sent="2">bona</wf>
+    <wf wid="w_11" para="1" sent="2">atenció</wf>
+    <wf wid="w_12" para="1" sent="2">atents</wf>
+    <wf wid="w_13" para="1" sent="2">i</wf>
+    <wf wid="w_14" para="1" sent="2">agradable</wf>
+    <wf wid="w_15" para="1" sent="2">.</wf>
+  </text>
+  <terms>
+    <term tid="t_1" lemma="esmorzar" morphofeat="V" pos="VMN0000">
+      <span>
+        <target id="w_1"/>
+      </span>
+    </term>
+    <term tid="t_2" lemma="molt" morphofeat="R" pos="RG">
+      <span>
+        <target id="w_2"/>
+      </span>
+    </term>
+    <term tid="t_3" lemma="complir" morphofeat="V" pos="VMP00SM">
+      <span>
+        <target id="w_3"/>
+      </span>
+    </term>
+    <term tid="t_4" lemma="i" morphofeat="C" pos="CC">
+      <span>
+        <target id="w_4"/>
+      </span>
+    </term>
+    <term tid="t_5" lemma="litre" morphofeat="N" pos="NCMN000">
+      <span>
+        <target id="w_5"/>
+      </span>
+    </term>
+    <term tid="t_6" lemma="horari" morphofeat="N" pos="NCMS000">
+      <span>
+        <target id="w_6"/>
+      </span>
+    </term>
+    <term tid="t_7" lemma="ampli" morphofeat="A" pos="AQ0MS0">
+      <span>
+        <target id="w_7"/>
+      </span>
+    </term>
+    <term tid="t_8" lemma="." morphofeat="N" pos="NCMS000">
+      <span>
+        <target id="w_8"/>
+      </span>
+    </term>
+    <term tid="t_9" lemma="molt" morphofeat="R" pos="RG">
+      <span>
+        <target id="w_9"/>
+      </span>
+    </term>
+    <term tid="t_10" lemma="bo" morphofeat="A" pos="AQ0FS0">
+      <span>
+        <target id="w_10"/>
+      </span>
+    </term>
+    <term tid="t_11" lemma="atenció" morphofeat="N" pos="NCFS000">
+      <span>
+        <target id="w_11"/>
+      </span>
+    </term>
+    <term tid="t_12" lemma="atent" morphofeat="A" pos="AQ0MP0">
+      <span>
+        <target id="w_12"/>
+      </span>
+    </term>
+    <term tid="t_13" lemma="i" morphofeat="C" pos="CC">
+      <span>
+        <target id="w_13"/>
+      </span>
+    </term>
+    <term tid="t_14" lemma="agradable" morphofeat="A" pos="AQ0CS0">
+      <span>
+        <target id="w_14"/>
+      </span>
+    </term>
+    <term tid="t_15" lemma="." morphofeat="N" pos="NCMS000">
+      <span>
+        <target id="w_15"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=9 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- atenció -->
+        <span>
+          <target id="t_11"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- Molt bona -->
+        <span>
+          <target id="t_9"/>
+          <target id="t_10"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=3 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Esmorzar -->
+        <span>
+          <target id="t_1"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- molt complert -->
+        <span>
+          <target id="t_2"/>
+          <target id="t_3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!-- Tag opinion scope id=12 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!-- agradable -->
+        <span>
+          <target id="t_14"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!-- Tag opinion scope id=12 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!-- atents -->
+        <span>
+          <target id="t_12"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!-- Tag opinion scope id=6 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- l horari -->
+        <span>
+          <target id="t_5"/>
+          <target id="t_6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- ampli -->
+        <span>
+          <target id="t_7"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

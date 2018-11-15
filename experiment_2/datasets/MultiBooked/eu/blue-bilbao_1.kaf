@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="eu" version="v1.naf">
+  <nafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="ixa-pipe-tok-eu" beginTimestamp="2016-12-27T15:04:41+0100" endTimestamp="2016-12-27T15:04:41+0100" version="1.8.4-5e2c806d7e8bc1e5e537c7137d1bf54e2aa8978c" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ixa-pipe-pos-eu-pos-perceptron-epec" beginTimestamp="2017-02-28T23:59:17+0100" endTimestamp="2017-02-28T23:59:17+0100" version="1.5.1-bd1f1cc15fb2680b8f85106975a2c41bfedee81f" hostname="jeremy-Aspire-V5-573PG"/>
+      <lp name="ixa-pipe-chunk-eu-chunk-epec1.1.1-95f84d6b17fda12d3f249d9898dd941d8e1ca978" beginTimestamp="2017-02-28T23:59:17+0100" endTimestamp="2017-02-28T23:59:18+0100" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <text>
+    <wf id="w1" offset="0" length="9" sent="1" para="1">Hotelaren</wf>
+    <wf id="w2" offset="10" length="8" sent="1" para="1">kokapena</wf>
+    <wf id="w3" offset="19" length="10" sent="1" para="1">primerakoa</wf>
+    <wf id="w4" offset="30" length="2" sent="1" para="1">da</wf>
+    <wf id="w5" offset="33" length="3" sent="1" para="1">era</wf>
+    <wf id="w6" offset="37" length="6" sent="1" para="1">jabeek</wf>
+    <wf id="w7" offset="44" length="8" sent="1" para="1">ahalegin</wf>
+    <wf id="w8" offset="53" length="7" sent="1" para="1">handiak</wf>
+    <wf id="w9" offset="61" length="6" sent="1" para="1">egiten</wf>
+    <wf id="w10" offset="68" length="7" sent="1" para="1">dituzte</wf>
+    <wf id="w11" offset="76" length="6" sent="1" para="1">etxean</wf>
+    <wf id="w12" offset="83" length="6" sent="1" para="1">bezala</wf>
+    <wf id="w13" offset="90" length="5" sent="1" para="1">sentí</wf>
+    <wf id="w14" offset="96" length="8" sent="1" para="1">arazteko</wf>
+    <wf id="w15" offset="104" length="1" sent="1" para="1">.</wf>
+  </text>
+  <terms>
+    <!--Hotelaren-->
+    <term id="t1" type="close" lemma="hotelar" pos="O" morphofeat="DET_ERKARR_GEN">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--kokapena-->
+    <term id="t2" type="close" lemma="kokapen" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--primerakoa-->
+    <term id="t3" type="close" lemma="primerako" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--da-->
+    <term id="t4" type="close" lemma="izan" pos="O" morphofeat="ADT">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--era-->
+    <term id="t5" type="close" lemma="era" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--jabeek-->
+    <term id="t6" type="close" lemma="jabe" pos="O" morphofeat="ADJ_ARR_ERG">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--ahalegin-->
+    <term id="t7" type="close" lemma="ahalegin" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--handiak-->
+    <term id="t8" type="close" lemma="handi" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--egiten-->
+    <term id="t9" type="close" lemma="egin" pos="O" morphofeat="ADI_SIN_NOTDEK">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--dituzte-->
+    <term id="t10" type="close" lemma="*edun" pos="O" morphofeat="ADL">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--etxean-->
+    <term id="t11" type="close" lemma="etxe" pos="O" morphofeat="IZE_ARR_INE">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--bezala-->
+    <term id="t12" type="close" lemma="bezala" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--sentí-->
+    <term id="t13" type="close" lemma="sentí" pos="O" morphofeat="ADI_SIN_NOTDEK">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--arazteko-->
+    <term id="t14" type="close" lemma="+araz" pos="O" morphofeat="ADI_FAK_ABS">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t15" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+  </terms>
+  <chunks>
+    <!--Hotelaren kokapena-->
+    <chunk id="c1" head="t2" phrase="NP">
+      <span>
+        <target id="t1"/>
+        <target id="t2"/>
+      </span>
+    </chunk>
+    <!--primerakoa-->
+    <chunk id="c2" head="t3" phrase="NP">
+      <span>
+        <target id="t3"/>
+      </span>
+    </chunk>
+    <!--da-->
+    <chunk id="c3" head="t4" phrase="VP">
+      <span>
+        <target id="t4"/>
+      </span>
+    </chunk>
+    <!--era jabeek-->
+    <chunk id="c4" head="t6" phrase="NP">
+      <span>
+        <target id="t5"/>
+        <target id="t6"/>
+      </span>
+    </chunk>
+    <!--ahalegin handiak-->
+    <chunk id="c5" head="t8" phrase="NP">
+      <span>
+        <target id="t7"/>
+        <target id="t8"/>
+      </span>
+    </chunk>
+    <!--egiten dituzte-->
+    <chunk id="c6" head="t10" phrase="VP">
+      <span>
+        <target id="t9"/>
+        <target id="t10"/>
+      </span>
+    </chunk>
+    <!--etxean bezala-->
+    <chunk id="c7" head="t12" phrase="NP">
+      <span>
+        <target id="t11"/>
+        <target id="t12"/>
+      </span>
+    </chunk>
+    <!--sentí-->
+    <chunk id="c8" head="t13" phrase="VP">
+      <span>
+        <target id="t13"/>
+      </span>
+    </chunk>
+    <!--arazteko-->
+    <chunk id="c9" head="t14" phrase="VP">
+      <span>
+        <target id="t14"/>
+      </span>
+    </chunk>
+  </chunks>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=5 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- jabeek -->
+        <span>
+          <target id="t6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- etxean bezala sentí arazteko -->
+        <span>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=6 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Hotelaren kokapena -->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- primerakoa -->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</NAF>

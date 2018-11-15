@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="ca">
+  <kafHeader>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2016-01-14T21:05:36CET" beginTimestamp="2016-01-14T21:05:36CET" endTimestamp="2016-01-14T21:05:36CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2016-01-14T21:05:36CET" beginTimestamp="2016-01-14T21:05:36CET" endTimestamp="2016-01-14T21:05:36CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <linguisticProcessors layer="text">
+    <lp timestamp="Mon Dec  7 13:49:48 2015" version="3.1" name="Freeling"/>
+  </linguisticProcessors>
+  <linguisticProcessors layer="terms">
+    <lp timestamp="Mon Dec  7 13:49:48 2015" version="3.1" name="Freeling"/>
+  </linguisticProcessors>
+  <text>
+    <wf wid="w_1" para="1" sent="1">Aire</wf>
+    <wf wid="w_2" para="1" sent="1">condicionat</wf>
+    <wf wid="w_3" para="1" sent="1">centralitzat</wf>
+    <wf wid="w_4" para="1" sent="1">Tracte</wf>
+    <wf wid="w_5" para="1" sent="1">correcte</wf>
+  </text>
+  <terms>
+    <term tid="t_1" lemma="aire" morphofeat="N" pos="NCMS000">
+      <span>
+        <target id="w_1"/>
+      </span>
+    </term>
+    <term tid="t_2" lemma="condicionar" morphofeat="V" pos="VMP00SM">
+      <span>
+        <target id="w_2"/>
+      </span>
+    </term>
+    <term tid="t_3" lemma="centralitzar" morphofeat="V" pos="VMP00SM">
+      <span>
+        <target id="w_3"/>
+      </span>
+    </term>
+    <term tid="t_4" lemma="tracte" morphofeat="N" pos="NCMS000">
+      <span>
+        <target id="w_4"/>
+      </span>
+    </term>
+    <term tid="t_5" lemma="correcte" morphofeat="A" pos="AQ0MS0">
+      <span>
+        <target id="w_5"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=5 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Tracte -->
+        <span>
+          <target id="t_4"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- correcte -->
+        <span>
+          <target id="t_5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=6 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Aire condicionat -->
+        <span>
+          <target id="t_1"/>
+          <target id="t_2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- centralitzat -->
+        <span>
+          <target id="t_3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

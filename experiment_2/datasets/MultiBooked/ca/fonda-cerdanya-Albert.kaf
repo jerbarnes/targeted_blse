@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="ca">
+  <kafHeader>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2016-01-15T17:57:18CET" beginTimestamp="2016-01-15T17:57:18CET" endTimestamp="2016-01-15T17:57:18CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2016-01-15T17:57:18CET" beginTimestamp="2016-01-15T17:57:18CET" endTimestamp="2016-01-15T17:57:18CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <linguisticProcessors layer="text">
+    <lp timestamp="Mon Dec  7 13:49:51 2015" version="3.1" name="Freeling"/>
+  </linguisticProcessors>
+  <linguisticProcessors layer="terms">
+    <lp timestamp="Mon Dec  7 13:49:51 2015" version="3.1" name="Freeling"/>
+  </linguisticProcessors>
+  <text>
+    <wf wid="w_1" para="1" sent="1">El</wf>
+    <wf wid="w_2" para="1" sent="1">tracte</wf>
+    <wf wid="w_3" para="1" sent="1">de</wf>
+    <wf wid="w_4" para="1" sent="1">els</wf>
+    <wf wid="w_5" para="1" sent="1">propietaris</wf>
+    <wf wid="w_6" para="1" sent="1">.</wf>
+    <wf wid="w_7" para="1" sent="2">Amable</wf>
+    <wf wid="w_8" para="1" sent="2">i</wf>
+    <wf wid="w_9" para="1" sent="2">atent</wf>
+  </text>
+  <terms>
+    <term tid="t_1" lemma="el" morphofeat="D" pos="DA0MS0">
+      <span>
+        <target id="w_1"/>
+      </span>
+    </term>
+    <term tid="t_2" lemma="tracte" morphofeat="N" pos="NCMS000">
+      <span>
+        <target id="w_2"/>
+      </span>
+    </term>
+    <term tid="t_3" lemma="de" morphofeat="S" pos="SPS00">
+      <span>
+        <target id="w_3"/>
+      </span>
+    </term>
+    <term tid="t_4" lemma="el" morphofeat="D" pos="DA0MP0">
+      <span>
+        <target id="w_4"/>
+      </span>
+    </term>
+    <term tid="t_5" lemma="propietari" morphofeat="N" pos="NCMP000">
+      <span>
+        <target id="w_5"/>
+      </span>
+    </term>
+    <term tid="t_6" lemma="." morphofeat="N" pos="NCMS000">
+      <span>
+        <target id="w_6"/>
+      </span>
+    </term>
+    <term tid="t_7" lemma="amable" morphofeat="A" pos="AQ0CS0">
+      <span>
+        <target id="w_7"/>
+      </span>
+    </term>
+    <term tid="t_8" lemma="i" morphofeat="C" pos="CC">
+      <span>
+        <target id="w_8"/>
+      </span>
+    </term>
+    <term tid="t_9" lemma="atent" morphofeat="A" pos="AQ0MS0">
+      <span>
+        <target id="w_9"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=4 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- El tracte de els propietaris -->
+        <span>
+          <target id="t_1"/>
+          <target id="t_2"/>
+          <target id="t_3"/>
+          <target id="t_4"/>
+          <target id="t_5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- atent -->
+        <span>
+          <target id="t_9"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=4 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- El tracte de els propietaris -->
+        <span>
+          <target id="t_1"/>
+          <target id="t_2"/>
+          <target id="t_3"/>
+          <target id="t_4"/>
+          <target id="t_5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- Amable -->
+        <span>
+          <target id="t_7"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

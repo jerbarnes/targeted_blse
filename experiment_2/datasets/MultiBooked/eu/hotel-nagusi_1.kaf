@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="eu" version="v1.naf">
+  <nafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="ixa-pipe-tok-eu" beginTimestamp="2016-12-27T15:05:03+0100" endTimestamp="2016-12-27T15:05:03+0100" version="1.8.4-5e2c806d7e8bc1e5e537c7137d1bf54e2aa8978c" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ixa-pipe-pos-eu-pos-perceptron-epec" beginTimestamp="2017-03-09T01:03:12+0100" endTimestamp="2017-03-09T01:03:13+0100" version="1.5.1-bd1f1cc15fb2680b8f85106975a2c41bfedee81f" hostname="jeremy-Aspire-V5-573PG"/>
+      <lp name="ixa-pipe-chunk-eu-chunk-epec1.1.1-95f84d6b17fda12d3f249d9898dd941d8e1ca978" beginTimestamp="2017-03-09T01:03:13+0100" endTimestamp="2017-03-09T01:03:13+0100" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2017-03-09T01:36:21CET" beginTimestamp="2017-03-09T01:36:21CET" endTimestamp="2017-03-09T01:36:21CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2017-03-09T01:36:21CET" beginTimestamp="2017-03-09T01:36:21CET" endTimestamp="2017-03-09T01:36:21CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <text>
+    <wf id="w1" offset="0" length="6" sent="1" para="1">Garbia</wf>
+    <wf id="w2" offset="7" length="3" sent="1" para="1">eta</wf>
+    <wf id="w3" offset="11" length="7" sent="1" para="1">erosoa.</wf>
+    <wf id="w4" offset="19" length="8" sent="1" para="1">ostatuko</wf>
+    <wf id="w5" offset="28" length="9" sent="1" para="1">langileak</wf>
+    <wf id="w6" offset="38" length="8" sent="1" para="1">azkarrak</wf>
+    <wf id="w7" offset="47" length="3" sent="1" para="1">eta</wf>
+    <wf id="w8" offset="51" length="10" sent="1" para="1">atseginak.</wf>
+    <wf id="w9" offset="62" length="3" sent="1" para="1">oso</wf>
+    <wf id="w10" offset="66" length="13" sent="1" para="1">gomendagarria</wf>
+    <wf id="w11" offset="79" length="1" sent="1" para="1">,</wf>
+  </text>
+  <terms>
+    <!--Garbia-->
+    <term id="t1" type="close" lemma="garbi" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--eta-->
+    <term id="t2" type="close" lemma="eta" pos="O" morphofeat="LOT_JNT">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--erosoa.-->
+    <term id="t3" type="close" lemma="erosoa." pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--ostatuko-->
+    <term id="t4" type="close" lemma="ostatu" pos="O" morphofeat="ADI_SIN_NOTDEK">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--langileak-->
+    <term id="t5" type="close" lemma="langile" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--azkarrak-->
+    <term id="t6" type="close" lemma="azkar" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--eta-->
+    <term id="t7" type="close" lemma="eta" pos="O" morphofeat="LOT_JNT">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--atseginak.-->
+    <term id="t8" type="close" lemma="atseginak." pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--oso-->
+    <term id="t9" type="close" lemma="oso" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--gomendagarria-->
+    <term id="t10" type="close" lemma="gomendagarri" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--,-->
+    <term id="t11" type="close" lemma="," pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+  </terms>
+  <chunks>
+    <!--Garbia-->
+    <chunk id="c1" head="t1" phrase="NP">
+      <span>
+        <target id="t1"/>
+      </span>
+    </chunk>
+    <!--erosoa.-->
+    <chunk id="c2" head="t3" phrase="NP">
+      <span>
+        <target id="t3"/>
+      </span>
+    </chunk>
+    <!--ostatuko-->
+    <chunk id="c3" head="t4" phrase="VP">
+      <span>
+        <target id="t4"/>
+      </span>
+    </chunk>
+    <!--langileak-->
+    <chunk id="c4" head="t5" phrase="NP">
+      <span>
+        <target id="t5"/>
+      </span>
+    </chunk>
+    <!--azkarrak-->
+    <chunk id="c5" head="t6" phrase="NP">
+      <span>
+        <target id="t6"/>
+      </span>
+    </chunk>
+    <!--atseginak.-->
+    <chunk id="c6" head="t8" phrase="NP">
+      <span>
+        <target id="t8"/>
+      </span>
+    </chunk>
+    <!--oso gomendagarria-->
+    <chunk id="c7" head="t10" phrase="NP">
+      <span>
+        <target id="t9"/>
+        <target id="t10"/>
+      </span>
+    </chunk>
+  </chunks>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=9 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!-- oso gomendagarria -->
+        <span>
+          <target id="t9"/>
+          <target id="t10"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=3 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!-- Garbia -->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!-- Tag opinion scope id=3 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!-- erosoa. -->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!-- Tag opinion scope id=7 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- langileak -->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- azkarrak -->
+        <span>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!-- Tag opinion scope id=7 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- langileak -->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- atseginak. -->
+        <span>
+          <target id="t8"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</NAF>

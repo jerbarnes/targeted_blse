@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="eu" version="v1.naf">
+  <nafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="ixa-pipe-tok-eu" beginTimestamp="2016-12-27T15:04:27+0100" endTimestamp="2016-12-27T15:04:27+0100" version="1.8.4-5e2c806d7e8bc1e5e537c7137d1bf54e2aa8978c" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ixa-pipe-pos-eu-pos-perceptron-epec" beginTimestamp="2017-02-14T02:09:34+0100" endTimestamp="2017-02-14T02:09:35+0100" version="1.5.1-bd1f1cc15fb2680b8f85106975a2c41bfedee81f" hostname="jeremy-Aspire-V5-573PG"/>
+      <lp name="ixa-pipe-chunk-eu-chunk-epec1.1.1-95f84d6b17fda12d3f249d9898dd941d8e1ca978" beginTimestamp="2017-02-14T02:09:35+0100" endTimestamp="2017-02-14T02:09:35+0100" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2017-02-14T02:10:48CET" beginTimestamp="2017-02-14T02:10:48CET" endTimestamp="2017-02-14T02:10:48CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2017-02-14T02:10:48CET" beginTimestamp="2017-02-14T02:10:48CET" endTimestamp="2017-02-14T02:10:48CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <text>
+    <wf id="w1" offset="0" length="8" sent="1" para="1">Azkenean</wf>
+    <wf id="w2" offset="9" length="6" sent="1" para="1">bertan</wf>
+    <wf id="w3" offset="16" length="2" sent="1" para="1">lo</wf>
+    <wf id="w4" offset="19" length="4" sent="1" para="1">egin</wf>
+    <wf id="w5" offset="24" length="5" sent="1" para="1">barik</wf>
+    <wf id="w6" offset="30" length="6" sent="1" para="1">geratu</wf>
+    <wf id="w7" offset="37" length="7" sent="1" para="1">nintzen</wf>
+    <wf id="w8" offset="44" length="1" sent="1" para="1">.</wf>
+    <wf id="w9" offset="46" length="3" sent="2" para="1">Oso</wf>
+    <wf id="w10" offset="50" length="7" sent="2" para="1">jatorra</wf>
+    <wf id="w11" offset="58" length="3" sent="2" para="1">eta</wf>
+    <wf id="w12" offset="62" length="10" sent="2" para="1">lagunkorra</wf>
+    <wf id="w13" offset="73" length="4" sent="2" para="1">izan</wf>
+    <wf id="w14" offset="78" length="2" sent="2" para="1">da</wf>
+    <wf id="w15" offset="81" length="6" sent="2" para="1">tratua</wf>
+    <wf id="w16" offset="88" length="4" sent="2" para="1">Anna</wf>
+    <wf id="w17" offset="92" length="1" sent="2" para="1">,</wf>
+    <wf id="w18" offset="94" length="5" sent="2" para="1">baina</wf>
+    <wf id="w19" offset="100" length="8" sent="2" para="1">hegaldia</wf>
+    <wf id="w20" offset="109" length="6" sent="2" para="1">bertan</wf>
+    <wf id="w21" offset="116" length="6" sent="2" para="1">behera</wf>
+    <wf id="w22" offset="123" length="6" sent="2" para="1">geratu</wf>
+    <wf id="w23" offset="130" length="3" sent="2" para="1">zen</wf>
+    <wf id="w24" offset="134" length="12" sent="2" para="1">Lufthansaren</wf>
+    <wf id="w25" offset="147" length="5" sent="2" para="1">greba</wf>
+    <wf id="w26" offset="153" length="4" sent="2" para="1">zela</wf>
+    <wf id="w27" offset="158" length="3" sent="2" para="1">eta</wf>
+    <wf id="w28" offset="161" length="1" sent="2" para="1">,</wf>
+    <wf id="w29" offset="162" length="3" sent="2" para="1">...</wf>
+  </text>
+  <terms>
+    <!--Azkenean-->
+    <term id="t1" type="close" lemma="azkenean" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--bertan-->
+    <term id="t2" type="close" lemma="bertan" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--lo-->
+    <term id="t3" type="close" lemma="lo_egin" pos="O" morphofeat="ADI_ADK_NOTDEK">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--egin-->
+    <term id="t4" type="close" lemma="hitz_egin" pos="O" morphofeat="ADI_ADK_NOTDEK">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--barik-->
+    <term id="t5" type="close" lemma="barik" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--geratu-->
+    <term id="t6" type="close" lemma="geratu" pos="O" morphofeat="ADI_SIN_NOTDEK">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--nintzen-->
+    <term id="t7" type="close" lemma="izan" pos="O" morphofeat="ADL">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t8" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--Oso-->
+    <term id="t9" type="close" lemma="oso" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--jatorra-->
+    <term id="t10" type="close" lemma="jator" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--eta-->
+    <term id="t11" type="close" lemma="eta" pos="O" morphofeat="LOT_JNT">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--lagunkorra-->
+    <term id="t12" type="close" lemma="lagunkor" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--izan-->
+    <term id="t13" type="close" lemma="izan" pos="O" morphofeat="ADI_SIN_NOTDEK">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--da-->
+    <term id="t14" type="close" lemma="izan" pos="O" morphofeat="ADL">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--tratua-->
+    <term id="t15" type="close" lemma="tratu" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--Anna-->
+    <term id="t16" type="close" lemma="anna" pos="O" morphofeat="IZE_IZB_ABS">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--,-->
+    <term id="t17" type="close" lemma="," pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--baina-->
+    <term id="t18" type="close" lemma="baina" pos="O" morphofeat="LOT_JNT">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--hegaldia-->
+    <term id="t19" type="close" lemma="hegaldi" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--bertan-->
+    <term id="t20" type="close" lemma="bertan" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--behera-->
+    <term id="t21" type="close" lemma="behe" pos="O" morphofeat="IZE_ARR_ALA">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--geratu-->
+    <term id="t22" type="close" lemma="geratu" pos="O" morphofeat="ADI_SIN_NOTDEK">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--zen-->
+    <term id="t23" type="close" lemma="izan" pos="O" morphofeat="ADL">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--Lufthansaren-->
+    <term id="t24" type="close" lemma="lufthans" pos="O" morphofeat="IZE_ARR_GEN">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--greba-->
+    <term id="t25" type="close" lemma="greba" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--zela-->
+    <term id="t26" type="close" lemma="izan" pos="O" morphofeat="ADT">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--eta-->
+    <term id="t27" type="close" lemma="eta" pos="O" morphofeat="LOT_MEN">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--,-->
+    <term id="t28" type="close" lemma="," pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--...-->
+    <term id="t29" type="close" lemma="..." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+  </terms>
+  <chunks>
+    <!--Azkenean-->
+    <chunk id="c1" head="t1" phrase="NP">
+      <span>
+        <target id="t1"/>
+      </span>
+    </chunk>
+    <!--bertan-->
+    <chunk id="c2" head="t2" phrase="NP">
+      <span>
+        <target id="t2"/>
+      </span>
+    </chunk>
+    <!--lo egin-->
+    <chunk id="c3" head="t4" phrase="VP">
+      <span>
+        <target id="t3"/>
+        <target id="t4"/>
+      </span>
+    </chunk>
+    <!--barik-->
+    <chunk id="c4" head="t5" phrase="NP">
+      <span>
+        <target id="t5"/>
+      </span>
+    </chunk>
+    <!--geratu nintzen-->
+    <chunk id="c5" head="t7" phrase="VP">
+      <span>
+        <target id="t6"/>
+        <target id="t7"/>
+      </span>
+    </chunk>
+    <!--Oso jatorra-->
+    <chunk id="c6" head="t10" phrase="NP">
+      <span>
+        <target id="t9"/>
+        <target id="t10"/>
+      </span>
+    </chunk>
+    <!--lagunkorra-->
+    <chunk id="c7" head="t12" phrase="NP">
+      <span>
+        <target id="t12"/>
+      </span>
+    </chunk>
+    <!--izan da-->
+    <chunk id="c8" head="t14" phrase="VP">
+      <span>
+        <target id="t13"/>
+        <target id="t14"/>
+      </span>
+    </chunk>
+    <!--tratua-->
+    <chunk id="c9" head="t15" phrase="NP">
+      <span>
+        <target id="t15"/>
+      </span>
+    </chunk>
+    <!--Anna-->
+    <chunk id="c10" head="t16" phrase="NP">
+      <span>
+        <target id="t16"/>
+      </span>
+    </chunk>
+    <!--hegaldia-->
+    <chunk id="c11" head="t19" phrase="NP">
+      <span>
+        <target id="t19"/>
+      </span>
+    </chunk>
+    <!--bertan-->
+    <chunk id="c12" head="t20" phrase="NP">
+      <span>
+        <target id="t20"/>
+      </span>
+    </chunk>
+    <!--behera-->
+    <chunk id="c13" head="t21" phrase="NP">
+      <span>
+        <target id="t21"/>
+      </span>
+    </chunk>
+    <!--geratu zen-->
+    <chunk id="c14" head="t23" phrase="VP">
+      <span>
+        <target id="t22"/>
+        <target id="t23"/>
+      </span>
+    </chunk>
+    <!--Lufthansaren greba-->
+    <chunk id="c15" head="t25" phrase="NP">
+      <span>
+        <target id="t24"/>
+        <target id="t25"/>
+      </span>
+    </chunk>
+    <!--zela eta-->
+    <chunk id="c16" head="t27" phrase="VP">
+      <span>
+        <target id="t26"/>
+        <target id="t27"/>
+      </span>
+    </chunk>
+  </chunks>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=4 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Anna -->
+        <span>
+          <target id="t16"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- Oso jatorra -->
+        <span>
+          <target id="t9"/>
+          <target id="t10"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=4 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Anna -->
+        <span>
+          <target id="t16"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- lagunkorra -->
+        <span>
+          <target id="t12"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</NAF>

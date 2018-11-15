@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="eu" version="v1.naf">
+  <nafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="ixa-pipe-tok-eu" beginTimestamp="2016-12-27T15:04:53+0100" endTimestamp="2016-12-27T15:04:54+0100" version="1.8.4-5e2c806d7e8bc1e5e537c7137d1bf54e2aa8978c" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ixa-pipe-pos-eu-pos-perceptron-epec" beginTimestamp="2017-03-01T00:01:31+0100" endTimestamp="2017-03-01T00:01:31+0100" version="1.5.1-bd1f1cc15fb2680b8f85106975a2c41bfedee81f" hostname="jeremy-Aspire-V5-573PG"/>
+      <lp name="ixa-pipe-chunk-eu-chunk-epec1.1.1-95f84d6b17fda12d3f249d9898dd941d8e1ca978" beginTimestamp="2017-03-01T00:01:31+0100" endTimestamp="2017-03-01T00:01:32+0100" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <text>
+    <wf id="w1" offset="0" length="3" sent="1" para="1">Oso</wf>
+    <wf id="w2" offset="4" length="5" sent="1" para="1">tratu</wf>
+    <wf id="w3" offset="10" length="3" sent="1" para="1">ona</wf>
+    <wf id="w4" offset="13" length="1" sent="1" para="1">,</wf>
+    <wf id="w5" offset="14" length="5" sent="1" para="1">tratu</wf>
+    <wf id="w6" offset="20" length="10" sent="1" para="1">familiarra</wf>
+    <wf id="w7" offset="31" length="2" sent="1" para="1">ta</wf>
+    <wf id="w8" offset="34" length="16" sent="1" para="1">gertukoa.Familia</wf>
+    <wf id="w9" offset="51" length="5" sent="1" para="1">batek</wf>
+    <wf id="w10" offset="57" length="9" sent="1" para="1">kudeatuta</wf>
+    <wf id="w11" offset="66" length="1" sent="1" para="1">.</wf>
+    <wf id="w12" offset="68" length="4" sent="2" para="1">Leku</wf>
+    <wf id="w13" offset="73" length="11" sent="2" para="1">estrategiko</wf>
+    <wf id="w14" offset="85" length="6" sent="2" para="1">batean</wf>
+    <wf id="w15" offset="92" length="8" sent="2" para="1">kokatuta</wf>
+    <wf id="w16" offset="100" length="1" sent="2" para="1">,</wf>
+    <wf id="w17" offset="101" length="11" sent="2" para="1">iparraldeko</wf>
+    <wf id="w18" offset="113" length="4" sent="2" para="1">osoa</wf>
+    <wf id="w19" offset="118" length="10" sent="2" para="1">ezagutzeko</wf>
+    <wf id="w20" offset="129" length="6" sent="2" para="1">aukera</wf>
+    <wf id="w21" offset="136" length="9" sent="2" para="1">paregabea</wf>
+    <wf id="w22" offset="146" length="6" sent="2" para="1">ematen</wf>
+    <wf id="w23" offset="153" length="5" sent="2" para="1">duena</wf>
+    <wf id="w24" offset="158" length="1" sent="2" para="1">.</wf>
+  </text>
+  <terms>
+    <!--Oso-->
+    <term id="t1" type="close" lemma="oso" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--tratu-->
+    <term id="t2" type="close" lemma="tratu" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--ona-->
+    <term id="t3" type="close" lemma="on" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--,-->
+    <term id="t4" type="close" lemma="," pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--tratu-->
+    <term id="t5" type="close" lemma="tratu" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--familiarra-->
+    <term id="t6" type="close" lemma="familiar" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--ta-->
+    <term id="t7" type="close" lemma="ta" pos="O" morphofeat="LOT_JNT">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--gertukoa.Familia-->
+    <term id="t8" type="close" lemma="gertukoa.familia" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--batek-->
+    <term id="t9" type="close" lemma="bat" pos="O" morphofeat="DET_DZH_ERG">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--kudeatuta-->
+    <term id="t10" type="close" lemma="kudeatu" pos="O" morphofeat="ADI_SIN_NOTDEK">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t11" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--Leku-->
+    <term id="t12" type="close" lemma="leku" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--estrategiko-->
+    <term id="t13" type="close" lemma="estrategiko" pos="O" morphofeat="ADJ_ARR_ZERO">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--batean-->
+    <term id="t14" type="close" lemma="bat" pos="O" morphofeat="DET_DZH_INE">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--kokatuta-->
+    <term id="t15" type="close" lemma="kokatu" pos="O" morphofeat="ADI_SIN_NOTDEK">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--,-->
+    <term id="t16" type="close" lemma="," pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--iparraldeko-->
+    <term id="t17" type="close" lemma="iparralde" pos="O" morphofeat="IZE_ARR_GEL">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--osoa-->
+    <term id="t18" type="close" lemma="oso" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--ezagutzeko-->
+    <term id="t19" type="close" lemma="ezagutu" pos="O" morphofeat="ADI_SIN_GEL">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--aukera-->
+    <term id="t20" type="close" lemma="aukera" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--paregabea-->
+    <term id="t21" type="close" lemma="paregabe" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--ematen-->
+    <term id="t22" type="close" lemma="eman" pos="O" morphofeat="ADI_SIN_NOTDEK">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--duena-->
+    <term id="t23" type="close" lemma="*edun" pos="O" morphofeat="ADL_IZEELI_ABS_ABS">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t24" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+  </terms>
+  <chunks>
+    <!--Oso tratu ona-->
+    <chunk id="c1" head="t3" phrase="NP">
+      <span>
+        <target id="t1"/>
+        <target id="t2"/>
+        <target id="t3"/>
+      </span>
+    </chunk>
+    <!--tratu familiarra-->
+    <chunk id="c2" head="t6" phrase="NP">
+      <span>
+        <target id="t5"/>
+        <target id="t6"/>
+      </span>
+    </chunk>
+    <!--gertukoa.Familia batek-->
+    <chunk id="c3" head="t9" phrase="NP">
+      <span>
+        <target id="t8"/>
+        <target id="t9"/>
+      </span>
+    </chunk>
+    <!--kudeatuta-->
+    <chunk id="c4" head="t10" phrase="VP">
+      <span>
+        <target id="t10"/>
+      </span>
+    </chunk>
+    <!--Leku estrategiko batean-->
+    <chunk id="c5" head="t14" phrase="NP">
+      <span>
+        <target id="t12"/>
+        <target id="t13"/>
+        <target id="t14"/>
+      </span>
+    </chunk>
+    <!--kokatuta-->
+    <chunk id="c6" head="t15" phrase="VP">
+      <span>
+        <target id="t15"/>
+      </span>
+    </chunk>
+    <!--iparraldeko osoa-->
+    <chunk id="c7" head="t18" phrase="NP">
+      <span>
+        <target id="t17"/>
+        <target id="t18"/>
+      </span>
+    </chunk>
+    <!--ezagutzeko-->
+    <chunk id="c8" head="t19" phrase="VP">
+      <span>
+        <target id="t19"/>
+      </span>
+    </chunk>
+    <!--aukera paregabea-->
+    <chunk id="c9" head="t21" phrase="NP">
+      <span>
+        <target id="t20"/>
+        <target id="t21"/>
+      </span>
+    </chunk>
+    <!--ematen-->
+    <chunk id="c10" head="t22" phrase="VP">
+      <span>
+        <target id="t22"/>
+      </span>
+    </chunk>
+    <!--duena-->
+    <chunk id="c11" head="t23" phrase="NP">
+      <span>
+        <target id="t23"/>
+      </span>
+    </chunk>
+  </chunks>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=10 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Leku -->
+        <span>
+          <target id="t12"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- estrategiko batean kokatuta -->
+        <span>
+          <target id="t13"/>
+          <target id="t14"/>
+          <target id="t15"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=3 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- tratu -->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- Oso ona -->
+        <span>
+          <target id="t1"/>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!-- Tag opinion scope id=12 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!-- iparraldeko osoa ezagutzeko aukera paregabea ematen -->
+        <span>
+          <target id="t17"/>
+          <target id="t18"/>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!-- Tag opinion scope id=7 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- tratu -->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- familiarra -->
+        <span>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!-- Tag opinion scope id=7 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- tratu -->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- gertukoa.Familia -->
+        <span>
+          <target id="t8"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</NAF>

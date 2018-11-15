@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="eu" version="v1.naf">
+  <nafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="ixa-pipe-tok-eu" beginTimestamp="2016-12-27T15:04:38+0100" endTimestamp="2016-12-27T15:04:39+0100" version="1.8.4-5e2c806d7e8bc1e5e537c7137d1bf54e2aa8978c" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ixa-pipe-pos-eu-pos-perceptron-epec" beginTimestamp="2017-02-28T23:58:59+0100" endTimestamp="2017-02-28T23:58:59+0100" version="1.5.1-bd1f1cc15fb2680b8f85106975a2c41bfedee81f" hostname="jeremy-Aspire-V5-573PG"/>
+      <lp name="ixa-pipe-chunk-eu-chunk-epec1.1.1-95f84d6b17fda12d3f249d9898dd941d8e1ca978" beginTimestamp="2017-02-28T23:58:59+0100" endTimestamp="2017-02-28T23:58:59+0100" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <text>
+    <wf id="w1" offset="0" length="8" sent="1" para="1">Bekaleko</wf>
+    <wf id="w2" offset="9" length="8" sent="1" para="1">gosariak</wf>
+    <wf id="w3" offset="18" length="11" sent="1" para="1">zoragarriak</wf>
+    <wf id="w4" offset="30" length="4" sent="1" para="1">izan</wf>
+    <wf id="w5" offset="35" length="5" sent="1" para="1">ziren</wf>
+    <wf id="w6" offset="40" length="1" sent="1" para="1">.</wf>
+    <wf id="w7" offset="42" length="3" sent="2" para="1">Eta</wf>
+    <wf id="w8" offset="46" length="8" sent="2" para="1">horretaz</wf>
+    <wf id="w9" offset="55" length="6" sent="2" para="1">aparte</wf>
+    <wf id="w10" offset="62" length="9" sent="2" para="1">egonaldia</wf>
+    <wf id="w11" offset="72" length="3" sent="2" para="1">oso</wf>
+    <wf id="w12" offset="76" length="8" sent="2" para="1">gustokoa</wf>
+    <wf id="w13" offset="85" length="4" sent="2" para="1">izan</wf>
+    <wf id="w14" offset="90" length="6" sent="2" para="1">genuen</wf>
+    <wf id="w15" offset="96" length="1" sent="2" para="1">.</wf>
+  </text>
+  <terms>
+    <!--Bekaleko-->
+    <term id="t1" type="close" lemma="bekale" pos="O" morphofeat="IZE_LIB_GEL">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--gosariak-->
+    <term id="t2" type="close" lemma="gosari" pos="O" morphofeat="IZE_ARR_ERG">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--zoragarriak-->
+    <term id="t3" type="close" lemma="zoragarri" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--izan-->
+    <term id="t4" type="close" lemma="izan" pos="O" morphofeat="ADI_SIN_NOTDEK">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--ziren-->
+    <term id="t5" type="close" lemma="izan" pos="O" morphofeat="ADL">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t6" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--Eta-->
+    <term id="t7" type="close" lemma="eta" pos="O" morphofeat="LOT_JNT">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--horretaz-->
+    <term id="t8" type="close" lemma="hori" pos="O" morphofeat="DET_ERKARR_INS">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--aparte-->
+    <term id="t9" type="close" lemma="aparte" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--egonaldia-->
+    <term id="t10" type="close" lemma="egonaldi" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--oso-->
+    <term id="t11" type="close" lemma="oso" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--gustokoa-->
+    <term id="t12" type="close" lemma="gusto" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--izan-->
+    <term id="t13" type="close" lemma="izan" pos="O" morphofeat="ADI_SIN_NOTDEK">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--genuen-->
+    <term id="t14" type="close" lemma="*edun" pos="O" morphofeat="ADL">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t15" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+  </terms>
+  <chunks>
+    <!--Bekaleko gosariak-->
+    <chunk id="c1" head="t2" phrase="NP">
+      <span>
+        <target id="t1"/>
+        <target id="t2"/>
+      </span>
+    </chunk>
+    <!--zoragarriak-->
+    <chunk id="c2" head="t3" phrase="NP">
+      <span>
+        <target id="t3"/>
+      </span>
+    </chunk>
+    <!--izan ziren-->
+    <chunk id="c3" head="t5" phrase="VP">
+      <span>
+        <target id="t4"/>
+        <target id="t5"/>
+      </span>
+    </chunk>
+    <!--horretaz-->
+    <chunk id="c4" head="t8" phrase="NP">
+      <span>
+        <target id="t8"/>
+      </span>
+    </chunk>
+    <!--aparte-->
+    <chunk id="c5" head="t9" phrase="NP">
+      <span>
+        <target id="t9"/>
+      </span>
+    </chunk>
+    <!--egonaldia-->
+    <chunk id="c6" head="t10" phrase="NP">
+      <span>
+        <target id="t10"/>
+      </span>
+    </chunk>
+    <!--oso gustokoa-->
+    <chunk id="c7" head="t12" phrase="NP">
+      <span>
+        <target id="t11"/>
+        <target id="t12"/>
+      </span>
+    </chunk>
+    <!--izan genuen-->
+    <chunk id="c8" head="t14" phrase="VP">
+      <span>
+        <target id="t13"/>
+        <target id="t14"/>
+      </span>
+    </chunk>
+  </chunks>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=3 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Bekaleko gosariak -->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- zoragarriak -->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=7 -->
+      <opinion_holder>
+        <!-- genuen -->
+        <span>
+          <target id="t14"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!-- egonaldia -->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- oso gustokoa -->
+        <span>
+          <target id="t11"/>
+          <target id="t12"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</NAF>

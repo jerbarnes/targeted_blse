@@ -1,0 +1,506 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="eu" version="v1.naf">
+  <nafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="ixa-pipe-tok-eu" beginTimestamp="2016-12-27T15:04:16+0100" endTimestamp="2016-12-27T15:04:16+0100" version="1.8.4-5e2c806d7e8bc1e5e537c7137d1bf54e2aa8978c" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ixa-pipe-pos-eu-pos-perceptron-epec" beginTimestamp="2017-02-14T02:08:17+0100" endTimestamp="2017-02-14T02:08:17+0100" version="1.5.1-bd1f1cc15fb2680b8f85106975a2c41bfedee81f" hostname="jeremy-Aspire-V5-573PG"/>
+      <lp name="ixa-pipe-chunk-eu-chunk-epec1.1.1-95f84d6b17fda12d3f249d9898dd941d8e1ca978" beginTimestamp="2017-02-14T02:08:18+0100" endTimestamp="2017-02-14T02:08:18+0100" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2017-02-14T02:10:48CET" beginTimestamp="2017-02-14T02:10:48CET" endTimestamp="2017-02-14T02:10:48CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2017-02-14T02:10:48CET" beginTimestamp="2017-02-14T02:10:48CET" endTimestamp="2017-02-14T02:10:48CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <text>
+    <wf id="w1" offset="0" length="11" sent="1" para="1">Apartamendu</wf>
+    <wf id="w2" offset="12" length="7" sent="1" para="1">pollita</wf>
+    <wf id="w3" offset="20" length="2" sent="1" para="1">da</wf>
+    <wf id="w4" offset="22" length="1" sent="1" para="1">,</wf>
+    <wf id="w5" offset="24" length="6" sent="1" para="1">garbia</wf>
+    <wf id="w6" offset="30" length="1" sent="1" para="1">,</wf>
+    <wf id="w7" offset="32" length="3" sent="1" para="1">eta</wf>
+    <wf id="w8" offset="36" length="7" sent="1" para="1">baziren</wf>
+    <wf id="w9" offset="44" length="5" sent="1" para="1">gauza</wf>
+    <wf id="w10" offset="50" length="6" sent="1" para="1">guziak</wf>
+    <wf id="w11" offset="57" length="8" sent="1" para="1">bakantza</wf>
+    <wf id="w12" offset="66" length="4" sent="1" para="1">onak</wf>
+    <wf id="w13" offset="71" length="9" sent="1" para="1">pasatzeko</wf>
+    <wf id="w14" offset="80" length="1" sent="1" para="1">.</wf>
+    <wf id="w15" offset="82" length="6" sent="2" para="1">Amparo</wf>
+    <wf id="w16" offset="89" length="7" sent="2" para="1">gisakoa</wf>
+    <wf id="w17" offset="97" length="2" sent="2" para="1">da</wf>
+    <wf id="w18" offset="99" length="1" sent="2" para="1">,</wf>
+    <wf id="w19" offset="101" length="4" sent="2" para="1">beti</wf>
+    <wf id="w20" offset="106" length="5" sent="2" para="1">prest</wf>
+    <wf id="w21" offset="112" length="4" sent="2" para="1">gure</wf>
+    <wf id="w22" offset="117" length="10" sent="2" para="1">laguntzeko</wf>
+    <wf id="w23" offset="127" length="1" sent="2" para="1">.</wf>
+    <wf id="w24" offset="129" length="7" sent="3" para="1">Momentu</wf>
+    <wf id="w25" offset="137" length="6" sent="3" para="1">goxoak</wf>
+    <wf id="w26" offset="144" length="6" sent="3" para="1">pasatu</wf>
+    <wf id="w27" offset="151" length="6" sent="3" para="1">ditugu</wf>
+    <wf id="w28" offset="157" length="1" sent="3" para="1">,</wf>
+    <wf id="w29" offset="159" length="8" sent="3" para="1">batzarri</wf>
+    <wf id="w30" offset="168" length="3" sent="3" para="1">ona</wf>
+    <wf id="w31" offset="172" length="4" sent="3" para="1">ukan</wf>
+    <wf id="w32" offset="177" length="4" sent="3" para="1">dugu</wf>
+    <wf id="w33" offset="182" length="6" sent="3" para="1">Bilbon</wf>
+    <wf id="w34" offset="188" length="1" sent="3" para="1">.</wf>
+  </text>
+  <terms>
+    <!--Apartamendu-->
+    <term id="t1" type="close" lemma="apartamendu" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--pollita-->
+    <term id="t2" type="close" lemma="pollit" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--da-->
+    <term id="t3" type="close" lemma="izan" pos="O" morphofeat="ADT">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--,-->
+    <term id="t4" type="close" lemma="," pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--garbia-->
+    <term id="t5" type="close" lemma="garbi" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--,-->
+    <term id="t6" type="close" lemma="," pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--eta-->
+    <term id="t7" type="close" lemma="eta" pos="O" morphofeat="LOT_JNT">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--baziren-->
+    <term id="t8" type="close" lemma="izan" pos="O" morphofeat="ADT">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--gauza-->
+    <term id="t9" type="close" lemma="gauza" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--guziak-->
+    <term id="t10" type="close" lemma="guzi" pos="O" morphofeat="DET_ORO_ABS">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--bakantza-->
+    <term id="t11" type="close" lemma="bakantza" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--onak-->
+    <term id="t12" type="close" lemma="on" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--pasatzeko-->
+    <term id="t13" type="close" lemma="pasatu" pos="O" morphofeat="ADI_SIN_ABS">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t14" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--Amparo-->
+    <term id="t15" type="close" lemma="amparo" pos="O" morphofeat="IZE_IZB_ZERO">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--gisakoa-->
+    <term id="t16" type="close" lemma="gisako" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--da-->
+    <term id="t17" type="close" lemma="izan" pos="O" morphofeat="ADT">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--,-->
+    <term id="t18" type="close" lemma="," pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--beti-->
+    <term id="t19" type="close" lemma="beti" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--prest-->
+    <term id="t20" type="close" lemma="prest" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--gure-->
+    <term id="t21" type="close" lemma="gu" pos="O" morphofeat="IOR_PERARR_GEN">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--laguntzeko-->
+    <term id="t22" type="close" lemma="lagundu" pos="O" morphofeat="ADI_SIN_ABS">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t23" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--Momentu-->
+    <term id="t24" type="close" lemma="momentu" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--goxoak-->
+    <term id="t25" type="close" lemma="goxo" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--pasatu-->
+    <term id="t26" type="close" lemma="pasatu" pos="O" morphofeat="ADI_SIN_NOTDEK">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--ditugu-->
+    <term id="t27" type="close" lemma="*edun" pos="O" morphofeat="ADL">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--,-->
+    <term id="t28" type="close" lemma="," pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--batzarri-->
+    <term id="t29" type="close" lemma="batzarri" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--ona-->
+    <term id="t30" type="close" lemma="on" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--ukan-->
+    <term id="t31" type="close" lemma="ukan" pos="O" morphofeat="ADI_SIN_NOTDEK">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--dugu-->
+    <term id="t32" type="close" lemma="*edun" pos="O" morphofeat="ADL">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--Bilbon-->
+    <term id="t33" type="close" lemma="bilbo" pos="O" morphofeat="IZE_LIB_INE">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--.-->
+    <term id="t34" type="close" lemma="." pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+  </terms>
+  <chunks>
+    <!--Apartamendu pollita-->
+    <chunk id="c1" head="t2" phrase="NP">
+      <span>
+        <target id="t1"/>
+        <target id="t2"/>
+      </span>
+    </chunk>
+    <!--da-->
+    <chunk id="c2" head="t3" phrase="VP">
+      <span>
+        <target id="t3"/>
+      </span>
+    </chunk>
+    <!--garbia-->
+    <chunk id="c3" head="t5" phrase="NP">
+      <span>
+        <target id="t5"/>
+      </span>
+    </chunk>
+    <!--baziren-->
+    <chunk id="c4" head="t8" phrase="VP">
+      <span>
+        <target id="t8"/>
+      </span>
+    </chunk>
+    <!--gauza-->
+    <chunk id="c5" head="t9" phrase="NP">
+      <span>
+        <target id="t9"/>
+      </span>
+    </chunk>
+    <!--guziak-->
+    <chunk id="c6" head="t10" phrase="NP">
+      <span>
+        <target id="t10"/>
+      </span>
+    </chunk>
+    <!--bakantza onak-->
+    <chunk id="c7" head="t12" phrase="NP">
+      <span>
+        <target id="t11"/>
+        <target id="t12"/>
+      </span>
+    </chunk>
+    <!--pasatzeko-->
+    <chunk id="c8" head="t13" phrase="VP">
+      <span>
+        <target id="t13"/>
+      </span>
+    </chunk>
+    <!--Amparo gisakoa-->
+    <chunk id="c9" head="t16" phrase="NP">
+      <span>
+        <target id="t15"/>
+        <target id="t16"/>
+      </span>
+    </chunk>
+    <!--da-->
+    <chunk id="c10" head="t17" phrase="VP">
+      <span>
+        <target id="t17"/>
+      </span>
+    </chunk>
+    <!--beti-->
+    <chunk id="c11" head="t19" phrase="NP">
+      <span>
+        <target id="t19"/>
+      </span>
+    </chunk>
+    <!--prest-->
+    <chunk id="c12" head="t20" phrase="NP">
+      <span>
+        <target id="t20"/>
+      </span>
+    </chunk>
+    <!--gure laguntzeko-->
+    <chunk id="c13" head="t22" phrase="NP">
+      <span>
+        <target id="t21"/>
+        <target id="t22"/>
+      </span>
+    </chunk>
+    <!--Momentu goxoak-->
+    <chunk id="c14" head="t25" phrase="NP">
+      <span>
+        <target id="t24"/>
+        <target id="t25"/>
+      </span>
+    </chunk>
+    <!--pasatu ditugu-->
+    <chunk id="c15" head="t27" phrase="VP">
+      <span>
+        <target id="t26"/>
+        <target id="t27"/>
+      </span>
+    </chunk>
+    <!--batzarri ona-->
+    <chunk id="c16" head="t30" phrase="NP">
+      <span>
+        <target id="t29"/>
+        <target id="t30"/>
+      </span>
+    </chunk>
+    <!--ukan dugu-->
+    <chunk id="c17" head="t32" phrase="VP">
+      <span>
+        <target id="t31"/>
+        <target id="t32"/>
+      </span>
+    </chunk>
+    <!--Bilbon-->
+    <chunk id="c18" head="t33" phrase="NP">
+      <span>
+        <target id="t33"/>
+      </span>
+    </chunk>
+  </chunks>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=8 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- gauza guziak bakantza onak pasatzeko -->
+        <span>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- baziren -->
+        <span>
+          <target id="t8"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=13 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Amparo -->
+        <span>
+          <target id="t15"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- beti prest gure laguntzeko -->
+        <span>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!-- Tag opinion scope id=13 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Amparo -->
+        <span>
+          <target id="t15"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- gisakoa -->
+        <span>
+          <target id="t16"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!-- Tag opinion scope id=20 -->
+      <opinion_holder>
+        <!-- dugu -->
+        <span>
+          <target id="t32"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!-- batzarri -->
+        <span>
+          <target id="t29"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- ona -->
+        <span>
+          <target id="t30"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!-- Tag opinion scope id=4 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Apartamendu -->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- garbia -->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o5">
+      <!-- Tag opinion scope id=4 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Apartamendu -->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- pollita -->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o6">
+      <!-- Tag opinion scope id=16 -->
+      <opinion_holder>
+        <!-- ditugu -->
+        <span>
+          <target id="t27"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!-- Momentu goxoak pasatu -->
+        <span>
+          <target id="t24"/>
+          <target id="t25"/>
+          <target id="t26"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</NAF>

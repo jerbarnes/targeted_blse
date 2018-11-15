@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="ca">
+  <kafHeader>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2016-01-15T17:57:18CET" beginTimestamp="2016-01-15T17:57:18CET" endTimestamp="2016-01-15T17:57:18CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2016-01-15T17:57:18CET" beginTimestamp="2016-01-15T17:57:18CET" endTimestamp="2016-01-15T17:57:18CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <linguisticProcessors layer="text">
+    <lp timestamp="Mon Dec  7 13:49:48 2015" version="3.1" name="Freeling"/>
+  </linguisticProcessors>
+  <linguisticProcessors layer="terms">
+    <lp timestamp="Mon Dec  7 13:49:48 2015" version="3.1" name="Freeling"/>
+  </linguisticProcessors>
+  <text>
+    <wf wid="w_1" para="1" sent="1">Un</wf>
+    <wf wid="w_2" para="1" sent="1">pèl</wf>
+    <wf wid="w_3" para="1" sent="1">tronat</wf>
+    <wf wid="w_4" para="1" sent="1">És</wf>
+    <wf wid="w_5" para="1" sent="1">a</wf>
+    <wf wid="w_6" para="1" sent="1">el</wf>
+    <wf wid="w_7" para="1" sent="1">cor</wf>
+    <wf wid="w_8" para="1" sent="1">de</wf>
+    <wf wid="w_9" para="1" sent="1">Tarragona</wf>
+    <wf wid="w_10" para="1" sent="1">i</wf>
+    <wf wid="w_11" para="1" sent="1">és</wf>
+    <wf wid="w_12" para="1" sent="1">net</wf>
+    <wf wid="w_13" para="1" sent="1">.</wf>
+  </text>
+  <terms>
+    <term tid="t_1" lemma="un" morphofeat="D" pos="DI0MS0">
+      <span>
+        <target id="w_1"/>
+      </span>
+    </term>
+    <term tid="t_2" lemma="pèl" morphofeat="N" pos="NCMS000">
+      <span>
+        <target id="w_2"/>
+      </span>
+    </term>
+    <term tid="t_3" lemma="tronar" morphofeat="V" pos="VMP00SM">
+      <span>
+        <target id="w_3"/>
+      </span>
+    </term>
+    <term tid="t_4" lemma="ser" morphofeat="V" pos="VSIP3S0">
+      <span>
+        <target id="w_4"/>
+      </span>
+    </term>
+    <term tid="t_5" lemma="a" morphofeat="S" pos="SPS00">
+      <span>
+        <target id="w_5"/>
+      </span>
+    </term>
+    <term tid="t_6" lemma="el" morphofeat="D" pos="DA0MS0">
+      <span>
+        <target id="w_6"/>
+      </span>
+    </term>
+    <term tid="t_7" lemma="cor" morphofeat="N" pos="NCMS000">
+      <span>
+        <target id="w_7"/>
+      </span>
+    </term>
+    <term tid="t_8" lemma="de" morphofeat="S" pos="SPS00">
+      <span>
+        <target id="w_8"/>
+      </span>
+    </term>
+    <term tid="t_9" lemma="tarragona" morphofeat="N" pos="NCFS000">
+      <span>
+        <target id="w_9"/>
+      </span>
+    </term>
+    <term tid="t_10" lemma="i" morphofeat="C" pos="CC">
+      <span>
+        <target id="w_10"/>
+      </span>
+    </term>
+    <term tid="t_11" lemma="ser" morphofeat="V" pos="VSIP3S0">
+      <span>
+        <target id="w_11"/>
+      </span>
+    </term>
+    <term tid="t_12" lemma="net" morphofeat="A" pos="AQ0MS0">
+      <span>
+        <target id="w_12"/>
+      </span>
+    </term>
+    <term tid="t_13" lemma="." morphofeat="N" pos="NCMS000">
+      <span>
+        <target id="w_13"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=2 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!-- Un pèl tronat -->
+        <span>
+          <target id="t_1"/>
+          <target id="t_2"/>
+          <target id="t_3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=5 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!-- a el cor de Tarragona -->
+        <span>
+          <target id="t_5"/>
+          <target id="t_6"/>
+          <target id="t_7"/>
+          <target id="t_8"/>
+          <target id="t_9"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!-- Tag opinion scope id=5 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!-- net -->
+        <span>
+          <target id="t_12"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

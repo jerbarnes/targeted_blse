@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="ca">
+  <kafHeader>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2016-01-14T21:05:35CET" beginTimestamp="2016-01-14T21:05:35CET" endTimestamp="2016-01-14T21:05:35CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2016-01-14T21:05:35CET" beginTimestamp="2016-01-14T21:05:35CET" endTimestamp="2016-01-14T21:05:35CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <linguisticProcessors layer="text">
+    <lp timestamp="Mon Dec  7 13:49:49 2015" version="3.1" name="Freeling"/>
+  </linguisticProcessors>
+  <linguisticProcessors layer="terms">
+    <lp timestamp="Mon Dec  7 13:49:49 2015" version="3.1" name="Freeling"/>
+  </linguisticProcessors>
+  <text>
+    <wf wid="w_1" para="1" sent="1">Masa</wf>
+    <wf wid="w_2" para="1" sent="1">calor</wf>
+    <wf wid="w_3" para="1" sent="1">a</wf>
+    <wf wid="w_4" para="1" sent="1">l'</wf>
+    <wf wid="w_5" para="1" sent="1">habitació</wf>
+    <wf wid="w_6" para="1" sent="1">Tot</wf>
+    <wf wid="w_7" para="1" sent="1">bé</wf>
+    <wf wid="w_8" para="1" sent="1">i</wf>
+    <wf wid="w_9" para="1" sent="1">un</wf>
+    <wf wid="w_10" para="1" sent="1">entorn</wf>
+    <wf wid="w_11" para="1" sent="1">molt</wf>
+    <wf wid="w_12" para="1" sent="1">agradable</wf>
+  </text>
+  <terms>
+    <term tid="t_1" lemma="masa" morphofeat="V" pos="VMIP3S0">
+      <span>
+        <target id="w_1"/>
+      </span>
+    </term>
+    <term tid="t_2" lemma="calor" morphofeat="N" pos="NCFS000">
+      <span>
+        <target id="w_2"/>
+      </span>
+    </term>
+    <term tid="t_3" lemma="a" morphofeat="S" pos="SPS00">
+      <span>
+        <target id="w_3"/>
+      </span>
+    </term>
+    <term tid="t_4" lemma="el" morphofeat="D" pos="DA0CS0">
+      <span>
+        <target id="w_4"/>
+      </span>
+    </term>
+    <term tid="t_5" lemma="habitació" morphofeat="N" pos="NCFS000">
+      <span>
+        <target id="w_5"/>
+      </span>
+    </term>
+    <term tid="t_6" lemma="tot" morphofeat="D" pos="DI0MS0">
+      <span>
+        <target id="w_6"/>
+      </span>
+    </term>
+    <term tid="t_7" lemma="bé" morphofeat="N" pos="NCMS000">
+      <span>
+        <target id="w_7"/>
+      </span>
+    </term>
+    <term tid="t_8" lemma="i" morphofeat="C" pos="CC">
+      <span>
+        <target id="w_8"/>
+      </span>
+    </term>
+    <term tid="t_9" lemma="un" morphofeat="D" pos="DI0MS0">
+      <span>
+        <target id="w_9"/>
+      </span>
+    </term>
+    <term tid="t_10" lemma="entorn" morphofeat="N" pos="NCMS000">
+      <span>
+        <target id="w_10"/>
+      </span>
+    </term>
+    <term tid="t_11" lemma="molt" morphofeat="R" pos="RG">
+      <span>
+        <target id="w_11"/>
+      </span>
+    </term>
+    <term tid="t_12" lemma="agradable" morphofeat="A" pos="AQ0CS0">
+      <span>
+        <target id="w_12"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=9 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- un entorn -->
+        <span>
+          <target id="t_9"/>
+          <target id="t_10"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- molt agradable -->
+        <span>
+          <target id="t_11"/>
+          <target id="t_12"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=3 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- calor -->
+        <span>
+          <target id="t_2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!-- Masa -->
+        <span>
+          <target id="t_1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!-- Tag opinion scope id=6 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Tot -->
+        <span>
+          <target id="t_6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- bé -->
+        <span>
+          <target id="t_7"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

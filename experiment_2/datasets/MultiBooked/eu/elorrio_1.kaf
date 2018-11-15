@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="eu" version="v1.naf">
+  <nafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="ixa-pipe-tok-eu" beginTimestamp="2016-12-27T15:04:53+0100" endTimestamp="2016-12-27T15:04:53+0100" version="1.8.4-5e2c806d7e8bc1e5e537c7137d1bf54e2aa8978c" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ixa-pipe-pos-eu-pos-perceptron-epec" beginTimestamp="2017-03-01T00:01:24+0100" endTimestamp="2017-03-01T00:01:24+0100" version="1.5.1-bd1f1cc15fb2680b8f85106975a2c41bfedee81f" hostname="jeremy-Aspire-V5-573PG"/>
+      <lp name="ixa-pipe-chunk-eu-chunk-epec1.1.1-95f84d6b17fda12d3f249d9898dd941d8e1ca978" beginTimestamp="2017-03-01T00:01:25+0100" endTimestamp="2017-03-01T00:01:25+0100" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <text>
+    <wf id="w1" offset="0" length="6" sent="1" para="1">gaueko</wf>
+    <wf id="w2" offset="7" length="10" sent="1" para="1">isiltasuna</wf>
+    <wf id="w3" offset="18" length="3" sent="1" para="1">san</wf>
+    <wf id="w4" offset="22" length="7" sent="1" para="1">agustin</wf>
+    <wf id="w5" offset="30" length="6" sent="1" para="1">auzoan</wf>
+    <wf id="w6" offset="36" length="1" sent="1" para="1">,</wf>
+    <wf id="w7" offset="38" length="7" sent="1" para="1">Elorrio</wf>
+    <wf id="w8" offset="46" length="4" sent="1" para="1">hiri</wf>
+    <wf id="w9" offset="51" length="7" sent="1" para="1">erditik</wf>
+    <wf id="w10" offset="59" length="5" sent="1" para="1">oinez</wf>
+    <wf id="w11" offset="65" length="6" sent="1" para="1">hurbil</wf>
+    <wf id="w12" offset="72" length="6" sent="1" para="1">izatea</wf>
+    <wf id="w13" offset="79" length="3" sent="1" para="1">eta</wf>
+    <wf id="w14" offset="83" length="10" sent="1" para="1">Arginetari</wf>
+    <wf id="w15" offset="94" length="7" sent="1" para="1">halaber</wf>
+    <wf id="w16" offset="101" length="1" sent="1" para="1">:</wf>
+    <wf id="w17" offset="103" length="8" sent="1" para="1">milesker</wf>
+  </text>
+  <terms>
+    <!--gaueko-->
+    <term id="t1" type="close" lemma="gau" pos="O" morphofeat="IZE_ARR_GEL">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--isiltasuna-->
+    <term id="t2" type="close" lemma="isiltasun" pos="O" morphofeat="IZE_ARR_ABS">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--san-->
+    <term id="t3" type="close" lemma="san" pos="O" morphofeat="IZE_ARR_INE">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--agustin-->
+    <term id="t4" type="close" lemma="agustin" pos="O" morphofeat="ADI_IZEELI_PART_SOZ">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--auzoan-->
+    <term id="t5" type="close" lemma="auzo" pos="O" morphofeat="IZE_ARR_INE">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--,-->
+    <term id="t6" type="close" lemma="," pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--Elorrio-->
+    <term id="t7" type="close" lemma="elorrio" pos="O" morphofeat="IZE_LIB_ABS">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--hiri-->
+    <term id="t8" type="close" lemma="hiri" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--erditik-->
+    <term id="t9" type="close" lemma="erdi" pos="O" morphofeat="IZE_ARR_ABL">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--oinez-->
+    <term id="t10" type="close" lemma="oinez" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--hurbil-->
+    <term id="t11" type="close" lemma="hurbil" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--izatea-->
+    <term id="t12" type="close" lemma="izan" pos="O" morphofeat="ADI_SIN_ABS">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--eta-->
+    <term id="t13" type="close" lemma="eta" pos="O" morphofeat="LOT_JNT">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--Arginetari-->
+    <term id="t14" type="close" lemma="argineta" pos="O" morphofeat="IZE_IZB_DAT">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--halaber-->
+    <term id="t15" type="close" lemma="halaber" pos="O" morphofeat="LOT_LOK">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--:-->
+    <term id="t16" type="close" lemma=":" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--milesker-->
+    <term id="t17" type="close" lemma="milesker" pos="O" morphofeat="IZE_ARR_ZERO">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+  </terms>
+  <chunks>
+    <!--gaueko isiltasuna-->
+    <chunk id="c1" head="t2" phrase="NP">
+      <span>
+        <target id="t1"/>
+        <target id="t2"/>
+      </span>
+    </chunk>
+    <!--san-->
+    <chunk id="c2" head="t3" phrase="NP">
+      <span>
+        <target id="t3"/>
+      </span>
+    </chunk>
+    <!--agustin-->
+    <chunk id="c3" head="t4" phrase="NP">
+      <span>
+        <target id="t4"/>
+      </span>
+    </chunk>
+    <!--auzoan-->
+    <chunk id="c4" head="t5" phrase="NP">
+      <span>
+        <target id="t5"/>
+      </span>
+    </chunk>
+    <!--Elorrio-->
+    <chunk id="c5" head="t7" phrase="NP">
+      <span>
+        <target id="t7"/>
+      </span>
+    </chunk>
+    <!--hiri erditik-->
+    <chunk id="c6" head="t9" phrase="NP">
+      <span>
+        <target id="t8"/>
+        <target id="t9"/>
+      </span>
+    </chunk>
+    <!--oinez-->
+    <chunk id="c7" head="t10" phrase="NP">
+      <span>
+        <target id="t10"/>
+      </span>
+    </chunk>
+    <!--hurbil-->
+    <chunk id="c8" head="t11" phrase="NP">
+      <span>
+        <target id="t11"/>
+      </span>
+    </chunk>
+    <!--izatea-->
+    <chunk id="c9" head="t12" phrase="VP">
+      <span>
+        <target id="t12"/>
+      </span>
+    </chunk>
+    <!--Arginetari-->
+    <chunk id="c10" head="t14" phrase="NP">
+      <span>
+        <target id="t14"/>
+      </span>
+    </chunk>
+    <!--milesker-->
+    <chunk id="c11" head="t17" phrase="NP">
+      <span>
+        <target id="t17"/>
+      </span>
+    </chunk>
+  </chunks>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=2 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!-- Elorrio hiri erditik oinez hurbil -->
+        <span>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=4 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!-- milesker -->
+        <span>
+          <target id="t17"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</NAF>

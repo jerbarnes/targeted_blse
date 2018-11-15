@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="eu" version="v1.naf">
+  <nafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="ixa-pipe-tok-eu" beginTimestamp="2017-01-01T23:46:05+0100" endTimestamp="2017-01-01T23:46:05+0100" version="1.8.4-5e2c806d7e8bc1e5e537c7137d1bf54e2aa8978c" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ixa-pipe-pos-eu-pos-perceptron-epec" beginTimestamp="2017-03-09T01:05:08+0100" endTimestamp="2017-03-09T01:05:08+0100" version="1.5.1-bd1f1cc15fb2680b8f85106975a2c41bfedee81f" hostname="jeremy-Aspire-V5-573PG"/>
+      <lp name="ixa-pipe-chunk-eu-chunk-epec1.1.1-95f84d6b17fda12d3f249d9898dd941d8e1ca978" beginTimestamp="2017-03-09T01:05:09+0100" endTimestamp="2017-03-09T01:05:09+0100" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2017-03-09T01:36:21CET" beginTimestamp="2017-03-09T01:36:21CET" endTimestamp="2017-03-09T01:36:21CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2017-03-09T01:36:21CET" beginTimestamp="2017-03-09T01:36:21CET" endTimestamp="2017-03-09T01:36:21CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <text>
+    <wf id="w1" offset="0" length="3" sent="1" para="1">Oso</wf>
+    <wf id="w2" offset="4" length="6" sent="1" para="1">polita</wf>
+    <wf id="w3" offset="11" length="3" sent="1" para="1">duk</wf>
+    <wf id="w4" offset="15" length="3" sent="1" para="1">bai</wf>
+    <wf id="w5" offset="19" length="8" sent="1" para="1">kanpotik</wf>
+    <wf id="w6" offset="28" length="3" sent="1" para="1">eta</wf>
+    <wf id="w7" offset="32" length="3" sent="1" para="1">bai</wf>
+    <wf id="w8" offset="36" length="8" sent="1" para="1">barrutik</wf>
+    <wf id="w9" offset="44" length="1" sent="1" para="1">,</wf>
+    <wf id="w10" offset="46" length="6" sent="1" para="1">biziki</wf>
+    <wf id="w11" offset="53" length="7" sent="1" para="1">gustatu</wf>
+    <wf id="w12" offset="61" length="6" sent="1" para="1">zaidak</wf>
+    <wf id="w13" offset="67" length="1" sent="1" para="1">,</wf>
+    <wf id="w14" offset="69" length="8" sent="1" para="1">bisitatu</wf>
+    <wf id="w15" offset="78" length="5" sent="1" para="1">behar</wf>
+    <wf id="w16" offset="84" length="4" sent="1" para="1">diat</wf>
+  </text>
+  <terms>
+    <!--Oso-->
+    <term id="t1" type="close" lemma="oso" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--polita-->
+    <term id="t2" type="close" lemma="polit" pos="O" morphofeat="ADJ_ARR_ABS">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--duk-->
+    <term id="t3" type="close" lemma="ukan" pos="O" morphofeat="ADT">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--bai-->
+    <term id="t4" type="close" lemma="bai" pos="O" morphofeat="PRT_EGI">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--kanpotik-->
+    <term id="t5" type="close" lemma="kanpo" pos="O" morphofeat="IZE_ARR_ABL">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--eta-->
+    <term id="t6" type="close" lemma="eta" pos="O" morphofeat="LOT_JNT">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--bai-->
+    <term id="t7" type="close" lemma="bai" pos="O" morphofeat="PRT_EGI">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--barrutik-->
+    <term id="t8" type="close" lemma="barru" pos="O" morphofeat="IZE_ARR_ABL">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--,-->
+    <term id="t9" type="close" lemma="," pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--biziki-->
+    <term id="t10" type="close" lemma="biziki" pos="O" morphofeat="ADB_ARR_ZERO">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--gustatu-->
+    <term id="t11" type="close" lemma="gustatu" pos="O" morphofeat="ADI_SIN_NOTDEK">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--zaidak-->
+    <term id="t12" type="close" lemma="izan" pos="O" morphofeat="ADL">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--,-->
+    <term id="t13" type="close" lemma="," pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--bisitatu-->
+    <term id="t14" type="close" lemma="bisitatu" pos="O" morphofeat="ADI_SIN_NOTDEK">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--behar-->
+    <term id="t15" type="close" lemma="behar_izan" pos="O" morphofeat="ADI_ADK_NOTDEK">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--diat-->
+    <term id="t16" type="close" lemma="*edun" pos="O" morphofeat="ADL">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+  </terms>
+  <chunks>
+    <!--Oso polita-->
+    <chunk id="c1" head="t2" phrase="NP">
+      <span>
+        <target id="t1"/>
+        <target id="t2"/>
+      </span>
+    </chunk>
+    <!--duk-->
+    <chunk id="c2" head="t3" phrase="VP">
+      <span>
+        <target id="t3"/>
+      </span>
+    </chunk>
+    <!--kanpotik-->
+    <chunk id="c3" head="t5" phrase="NP">
+      <span>
+        <target id="t5"/>
+      </span>
+    </chunk>
+    <!--barrutik-->
+    <chunk id="c4" head="t8" phrase="NP">
+      <span>
+        <target id="t8"/>
+      </span>
+    </chunk>
+    <!--biziki-->
+    <chunk id="c5" head="t10" phrase="NP">
+      <span>
+        <target id="t10"/>
+      </span>
+    </chunk>
+    <!--gustatu zaidak-->
+    <chunk id="c6" head="t12" phrase="VP">
+      <span>
+        <target id="t11"/>
+        <target id="t12"/>
+      </span>
+    </chunk>
+    <!--bisitatu-->
+    <chunk id="c7" head="t14" phrase="VP">
+      <span>
+        <target id="t14"/>
+      </span>
+    </chunk>
+    <!--behar diat-->
+    <chunk id="c8" head="t16" phrase="VP">
+      <span>
+        <target id="t15"/>
+        <target id="t16"/>
+      </span>
+    </chunk>
+  </chunks>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=5 -->
+      <opinion_holder>
+        <!-- zaidak -->
+        <span>
+          <target id="t12"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!-- biziki gustatu -->
+        <span>
+          <target id="t10"/>
+          <target id="t11"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=5 -->
+      <opinion_holder>
+        <!-- zaidak -->
+        <span>
+          <target id="t12"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!-- Oso polita -->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!-- Tag opinion scope id=7 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!-- bisitatu behar -->
+        <span>
+          <target id="t14"/>
+          <target id="t15"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</NAF>

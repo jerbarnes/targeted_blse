@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="eu" version="v1.naf">
+  <nafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="ixa-pipe-tok-eu" beginTimestamp="2016-12-27T15:04:28+0100" endTimestamp="2016-12-27T15:04:28+0100" version="1.8.4-5e2c806d7e8bc1e5e537c7137d1bf54e2aa8978c" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ixa-pipe-pos-eu-pos-perceptron-epec" beginTimestamp="2017-02-28T23:57:41+0100" endTimestamp="2017-02-28T23:57:41+0100" version="1.5.1-bd1f1cc15fb2680b8f85106975a2c41bfedee81f" hostname="jeremy-Aspire-V5-573PG"/>
+      <lp name="ixa-pipe-chunk-eu-chunk-epec1.1.1-95f84d6b17fda12d3f249d9898dd941d8e1ca978" beginTimestamp="2017-02-28T23:57:42+0100" endTimestamp="2017-02-28T23:57:42+0100" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2017-03-01T00:22:12CET" beginTimestamp="2017-03-01T00:22:12CET" endTimestamp="2017-03-01T00:22:12CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </nafHeader>
+  <text>
+    <wf id="w1" offset="0" length="8" sent="1" para="1">Euskeraz</wf>
+    <wf id="w2" offset="9" length="4" sent="1" para="1">hitz</wf>
+    <wf id="w3" offset="14" length="4" sent="1" para="1">egin</wf>
+    <wf id="w4" offset="19" length="7" sent="1" para="1">ziguten</wf>
+  </text>
+  <terms>
+    <!--Euskeraz-->
+    <term id="t1" type="close" lemma="euskera" pos="O" morphofeat="IZE_ARR_INS">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--hitz-->
+    <term id="t2" type="close" lemma="hitz_egin" pos="O" morphofeat="ADI_ADK_NOTDEK">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--egin-->
+    <term id="t3" type="close" lemma="egin" pos="O" morphofeat="ADI_SIN_NOTDEK">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--ziguten-->
+    <term id="t4" type="close" lemma="*edun" pos="O" morphofeat="ADL">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+  </terms>
+  <chunks>
+    <!--Euskeraz-->
+    <chunk id="c1" head="t1" phrase="NP">
+      <span>
+        <target id="t1"/>
+      </span>
+    </chunk>
+    <!--hitz egin-->
+    <chunk id="c2" head="t3" phrase="VP">
+      <span>
+        <target id="t2"/>
+        <target id="t3"/>
+      </span>
+    </chunk>
+  </chunks>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=2 -->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!-- Euskeraz hitz egin ziguten -->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</NAF>

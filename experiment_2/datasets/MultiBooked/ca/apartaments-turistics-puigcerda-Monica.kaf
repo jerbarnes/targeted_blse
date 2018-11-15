@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="ca">
+  <kafHeader>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2016-01-14T21:05:35CET" beginTimestamp="2016-01-14T21:05:35CET" endTimestamp="2016-01-14T21:05:35CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2016-01-14T21:05:35CET" beginTimestamp="2016-01-14T21:05:35CET" endTimestamp="2016-01-14T21:05:35CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <linguisticProcessors layer="text">
+    <lp timestamp="Sat Nov 21 13:30:09 2015" version="3.1" name="Freeling"/>
+  </linguisticProcessors>
+  <linguisticProcessors layer="terms">
+    <lp timestamp="Sat Nov 21 13:30:09 2015" version="3.1" name="Freeling"/>
+  </linguisticProcessors>
+  <text>
+    <wf wid="w_1" para="1" sent="1">Apartaments</wf>
+    <wf wid="w_2" para="1" sent="1">molt</wf>
+    <wf wid="w_3" para="1" sent="1">nous</wf>
+    <wf wid="w_4" para="1" sent="1">,</wf>
+    <wf wid="w_5" para="1" sent="1">ben</wf>
+    <wf wid="w_6" para="1" sent="1">decorats</wf>
+    <wf wid="w_7" para="1" sent="1">,</wf>
+    <wf wid="w_8" para="1" sent="1">molt</wf>
+    <wf wid="w_9" para="1" sent="1">confortables</wf>
+    <wf wid="w_10" para="1" sent="1">i</wf>
+    <wf wid="w_11" para="1" sent="1">molt</wf>
+    <wf wid="w_12" para="1" sent="1">ben</wf>
+    <wf wid="w_13" para="1" sent="1">situats</wf>
+    <wf wid="w_14" para="1" sent="1">.</wf>
+  </text>
+  <terms>
+    <term tid="t_1" lemma="apartament" morphofeat="N" pos="NCMP000">
+      <span>
+        <target id="w_1"/>
+      </span>
+    </term>
+    <term tid="t_2" lemma="molt" morphofeat="R" pos="RG">
+      <span>
+        <target id="w_2"/>
+      </span>
+    </term>
+    <term tid="t_3" lemma="nou" morphofeat="A" pos="AQ0MP0">
+      <span>
+        <target id="w_3"/>
+      </span>
+    </term>
+    <term tid="t_4" lemma="," morphofeat="F" pos="Fc">
+      <span>
+        <target id="w_4"/>
+      </span>
+    </term>
+    <term tid="t_5" lemma="ben" morphofeat="R" pos="RG">
+      <span>
+        <target id="w_5"/>
+      </span>
+    </term>
+    <term tid="t_6" lemma="decorat" morphofeat="N" pos="NCMP000">
+      <span>
+        <target id="w_6"/>
+      </span>
+    </term>
+    <term tid="t_7" lemma="," morphofeat="F" pos="Fc">
+      <span>
+        <target id="w_7"/>
+      </span>
+    </term>
+    <term tid="t_8" lemma="molt" morphofeat="R" pos="RG">
+      <span>
+        <target id="w_8"/>
+      </span>
+    </term>
+    <term tid="t_9" lemma="confortable" morphofeat="A" pos="AQ0CP0">
+      <span>
+        <target id="w_9"/>
+      </span>
+    </term>
+    <term tid="t_10" lemma="i" morphofeat="C" pos="CC">
+      <span>
+        <target id="w_10"/>
+      </span>
+    </term>
+    <term tid="t_11" lemma="molt" morphofeat="R" pos="RG">
+      <span>
+        <target id="w_11"/>
+      </span>
+    </term>
+    <term tid="t_12" lemma="ben" morphofeat="R" pos="RG">
+      <span>
+        <target id="w_12"/>
+      </span>
+    </term>
+    <term tid="t_13" lemma="situar" morphofeat="V" pos="VMP00PM">
+      <span>
+        <target id="w_13"/>
+      </span>
+    </term>
+    <term tid="t_14" lemma="." morphofeat="F" pos="Fp">
+      <span>
+        <target id="w_14"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=6 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Apartaments -->
+        <span>
+          <target id="t_1"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- molt ben situats -->
+        <span>
+          <target id="t_11"/>
+          <target id="t_12"/>
+          <target id="t_13"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!-- Tag opinion scope id=6 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Apartaments -->
+        <span>
+          <target id="t_1"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- molt nous -->
+        <span>
+          <target id="t_2"/>
+          <target id="t_3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!-- Tag opinion scope id=6 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Apartaments -->
+        <span>
+          <target id="t_1"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- ben decorats -->
+        <span>
+          <target id="t_5"/>
+          <target id="t_6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!-- Tag opinion scope id=6 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- Apartaments -->
+        <span>
+          <target id="t_1"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!-- molt confortables -->
+        <span>
+          <target id="t_8"/>
+          <target id="t_9"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

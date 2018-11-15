@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="ca">
+  <kafHeader>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2016-01-15T17:57:18CET" beginTimestamp="2016-01-15T17:57:18CET" endTimestamp="2016-01-15T17:57:18CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2016-01-15T17:57:18CET" beginTimestamp="2016-01-15T17:57:18CET" endTimestamp="2016-01-15T17:57:18CET" hostname="jeremy-Aspire-V5-573PG"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <linguisticProcessors layer="text">
+    <lp timestamp="Mon Dec  7 13:49:49 2015" version="3.1" name="Freeling"/>
+  </linguisticProcessors>
+  <linguisticProcessors layer="terms">
+    <lp timestamp="Mon Dec  7 13:49:49 2015" version="3.1" name="Freeling"/>
+  </linguisticProcessors>
+  <text>
+    <wf wid="w_1" para="1" sent="1">La</wf>
+    <wf wid="w_2" para="1" sent="1">situació</wf>
+    <wf wid="w_3" para="1" sent="1">de</wf>
+    <wf wid="w_4" para="1" sent="1">l'</wf>
+    <wf wid="w_5" para="1" sent="1">hotel</wf>
+    <wf wid="w_6" para="1" sent="1">La</wf>
+    <wf wid="w_7" para="1" sent="1">amabilitat</wf>
+    <wf wid="w_8" para="1" sent="1">de</wf>
+    <wf wid="w_9" para="1" sent="1">el</wf>
+    <wf wid="w_10" para="1" sent="1">personal</wf>
+  </text>
+  <terms>
+    <term tid="t_1" lemma="el" morphofeat="D" pos="DA0FS0">
+      <span>
+        <target id="w_1"/>
+      </span>
+    </term>
+    <term tid="t_2" lemma="situació" morphofeat="N" pos="NCFS000">
+      <span>
+        <target id="w_2"/>
+      </span>
+    </term>
+    <term tid="t_3" lemma="de" morphofeat="S" pos="SPS00">
+      <span>
+        <target id="w_3"/>
+      </span>
+    </term>
+    <term tid="t_4" lemma="el" morphofeat="D" pos="DA0CS0">
+      <span>
+        <target id="w_4"/>
+      </span>
+    </term>
+    <term tid="t_5" lemma="hotel" morphofeat="N" pos="NCMS000">
+      <span>
+        <target id="w_5"/>
+      </span>
+    </term>
+    <term tid="t_6" lemma="el" morphofeat="D" pos="DA0FS0">
+      <span>
+        <target id="w_6"/>
+      </span>
+    </term>
+    <term tid="t_7" lemma="amabilitat" morphofeat="N" pos="NCFS000">
+      <span>
+        <target id="w_7"/>
+      </span>
+    </term>
+    <term tid="t_8" lemma="de" morphofeat="S" pos="SPS00">
+      <span>
+        <target id="w_8"/>
+      </span>
+    </term>
+    <term tid="t_9" lemma="el" morphofeat="D" pos="DA0MS0">
+      <span>
+        <target id="w_9"/>
+      </span>
+    </term>
+    <term tid="t_10" lemma="personal" morphofeat="N" pos="NCFS000">
+      <span>
+        <target id="w_10"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!-- Tag opinion scope id=3 -->
+      <opinion_holder/>
+      <opinion_target>
+        <!-- el personal -->
+        <span>
+          <target id="t_9"/>
+          <target id="t_10"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!-- La amabilitat -->
+        <span>
+          <target id="t_6"/>
+          <target id="t_7"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>
