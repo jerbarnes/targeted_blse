@@ -1,7 +1,9 @@
 Targeted Cross-lingual Sentiment Analysis via Embedding Projection
 ==============
 
-This repository hosts the source code and data for the work below:
+This repository hosts the source code and data for our work on
+targeted cross-lingual sentiment analysis. The repository for
+experiment 1 can be found [here](https://github.com/jbarnesspain/blse).
 
 
 Requirements to run the experiments
@@ -10,7 +12,6 @@ Requirements to run the experiments
 - NumPy
 - sklearn [http://scikit-learn.org/stable/]
 - pytorch [http://pytorch.org/]
-
 
 
 Usage
