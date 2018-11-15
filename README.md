@@ -30,8 +30,8 @@ or by downloading the [pretrained embeddings](https://drive.google.com/open?id=1
 unzipping them and putting them in the 'embeddings' directory:
 
 
-You can then cd into the experiment_2 and casestudy directory and
-run either experiment using the run_experiment.sh script:
+You can then cd into either experiment_2 and case_study and
+run the experiment using the run_experiment.sh script:
 
 ```
 cd experiment_2
